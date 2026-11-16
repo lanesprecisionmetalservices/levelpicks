@@ -1,6 +1,6 @@
 {
   "name": "Shop Floor Picks",
-  "tagline": "Welding and fab-shop gear, picked by someone who runs a CNC plasma table every day.",
+  "tagline": "Welding and fab-shop gear guides from a CNC plasma table operator.",
   "base_url": "https://lanesprecisionmetalservices.github.io/shopfloor-picks",
   "amazon_tag": "wesellfab01-20",
   "updated": "November 2026",
@@ -9,7 +9,7 @@
       "slug": "auto-darkening-welding-helmets",
       "title": "Auto-Darkening Welding Helmets Worth Buying",
       "short": "Welding helmets",
-      "intro": "Your helmet is the one piece of gear you look through for every weld, grind and cut. These three cover a budget hood, a premium all-rounder and the biggest view you can buy.",
+      "intro": "You look through your helmet on every weld, grind and cut. Here's a budget hood with a huge window, a premium all-rounder and a digital hood with a separate cut mode.",
       "what_to_look_for": [
         "Viewing area: bigger means less tunnel vision, especially out of position. Compare it in square inches.",
         "Optical clarity rating (EN379): four numbers, 1 is best. 1/1/1/1 is the top rating.",
@@ -22,16 +22,16 @@
           "name": "YesWelder LYG-M800H",
           "badge": "Best budget pick",
           "search": "YesWelder LYG-M800H welding helmet",
-          "summary": "A low-cost hood that still gives you a big window and four sensors.",
+          "summary": "A low-cost hood with the biggest listed window of the three and four sensors.",
           "specs": [
-            "Viewing area: 3.93 x 3.66 in",
+            "Viewing area: 3.93 x 3.66 in (about 14.4 sq in)",
             "4 arc sensors",
             "Shade ranges: 4/5-9/9-13 (with grind)",
             "Solar plus replaceable lithium battery",
             "Weight: about 2.2 lb"
           ],
           "good_for": "Beginners, garage welders, and anyone who wants a spare hood that still has a big screen.",
-          "watch_for": "Headgear and long-term durability won't match the Lincoln or Miller. Check the current listing for the exact clarity rating, since it varies between versions."
+          "watch_for": "It's a budget hood, so expect simpler headgear and fewer settings than the Lincoln or Miller. Check the listing for the exact clarity rating; it varies between versions."
         },
         {
           "name": "Lincoln Electric Viking 3350",
@@ -47,13 +47,13 @@
             "TIG rated down to 2 amps"
           ],
           "good_for": "Daily welders who want top-rated optics, low-amp TIG, and a hood that lasts years.",
-          "watch_for": "Lots of graphic versions are sold under different part numbers; the lens and specs are the same. The newer 3350 ADV is a different (digital) model with a slightly smaller window."
+          "watch_for": "It's sold in lots of graphic designs under different part numbers. The lens and specs are the same. The newer 3350 ADV is a different digital model with a slightly smaller window."
         },
         {
           "name": "Miller Digital Infinity (ClearLight 4x)",
-          "badge": "Biggest view",
+          "badge": "Best for cutting",
           "search": "Miller Digital Infinity ClearLight 4x welding helmet",
-          "summary": "Miller bills it as the largest viewing area in the industry, with digital controls and four operating modes.",
+          "summary": "Miller's widescreen hood, with digital controls and a separate mode for plasma and torch cutting.",
           "specs": [
             "Viewing area: 13.4 sq in",
             "4 arc sensors",
@@ -61,16 +61,44 @@
             "Digital controls for shade, delay and sensitivity",
             "ClearLight 4x lens"
           ],
-          "good_for": "Welders who also do a lot of plasma or torch cutting (dedicated cut mode) and want the widest view possible.",
+          "good_for": "Welders who also do a lot of plasma or torch cutting, and anyone who wants digital controls.",
           "watch_for": "It's the priciest of the three. The older ClearLight 2.0 version is discontinued, so make sure the listing says ClearLight 4x."
         }
-      ]
+      ],
+      "compare": {
+        "cols": [
+          "Helmet",
+          "Viewing area",
+          "Sensors",
+          "Weld shades"
+        ],
+        "rows": [
+          [
+            "YesWelder LYG-M800H",
+            "About 14.4 sq in",
+            "4",
+            "9-13"
+          ],
+          [
+            "Lincoln Viking 3350",
+            "12.5 sq in",
+            "4",
+            "5-13"
+          ],
+          [
+            "Miller Digital Infinity",
+            "13.4 sq in",
+            "4",
+            "8-13"
+          ]
+        ]
+      }
     },
     {
       "slug": "4-5-inch-angle-grinders",
       "title": "The Best 4-1/2\" Corded Angle Grinders for the Shop",
       "short": "Angle grinders",
-      "intro": "A 4-1/2\" grinder gets used more than almost any other tool in a fab shop: cleaning mill scale, beveling, knocking down welds and dressing plasma-cut edges. Here's a heavy-duty pick, a lighter all-day pick and a budget pick.",
+      "intro": "In a fab shop the 4-1/2\" grinder does the cleanup: mill scale, bevels, weld knock-down and dressing plasma-cut edges. Here's a heavy-duty pick, a slim-grip pick and a budget pick.",
       "what_to_look_for": [
         "Amps: more amps means less bogging under load. 6 to 7.5 A is fine for general work; 11 A is heavy-duty.",
         "Switch type: a paddle switch stops the tool when you let go. Slide switches stay on, so be extra careful with them.",
@@ -92,12 +120,12 @@
             "Weight: 4.6 lb",
             "3-year limited warranty"
           ],
-          "good_for": "Heavy grinding, beveling plate and running flap discs hard all day.",
+          "good_for": "Heavy grinding, beveling plate and running flap discs hard.",
           "watch_for": "No brake. The DWE402W version adds an abrasive wheel in the box."
         },
         {
           "name": "Makita 9557PB",
-          "badge": "Best for all-day use",
+          "badge": "Best slim grip",
           "search": "Makita 9557PB angle grinder",
           "summary": "A slim, light grinder built with extra dust protection for the motor.",
           "specs": [
@@ -107,7 +135,7 @@
             "Sealed (labyrinth) motor protection against dust",
             "AC/DC switch for generators and other power sources"
           ],
-          "good_for": "Long sessions of finish grinding and edge cleanup where comfort matters more than raw power.",
+          "good_for": "Long sessions of finish grinding and edge cleanup, where a slim grip matters more than raw power.",
           "watch_for": "Less power than the DeWalt when you lean on it with a big flap disc."
         },
         {
@@ -125,7 +153,39 @@
           "good_for": "A first grinder, a second grinder set up with a wire wheel, or light home-shop work.",
           "watch_for": "Slide switch stays on if you drop it. 1-year base warranty."
         }
-      ]
+      ],
+      "compare": {
+        "cols": [
+          "Grinder",
+          "Amps",
+          "Max RPM",
+          "Switch",
+          "Weight"
+        ],
+        "rows": [
+          [
+            "DeWalt DWE402",
+            "11 A",
+            "11,000",
+            "Paddle, lock-on",
+            "4.6 lb"
+          ],
+          [
+            "Makita 9557PB",
+            "7.5 A",
+            "11,000",
+            "Paddle",
+            "4.5 lb"
+          ],
+          [
+            "Metabo HPT G12SR4",
+            "6.2 A",
+            "10,000",
+            "Slide",
+            "4.0 lb"
+          ]
+        ]
+      }
     }
   ]
 }

@@ -13,9 +13,10 @@ OUT = os.path.join(ROOT, "docs")
 S = json.load(open(os.path.join(ROOT, "site.json")))
 e = html.escape
 
-DISCLOSURE = ("As an Amazon Associate I earn from qualifying purchases. Some links on this site "
-              "are affiliate links: if you buy through them, the site may earn a commission at "
-              "no extra cost to you.")
+DISCLOSURE = "As an Amazon Associate I earn from qualifying purchases."
+DISCLOSURE_LONG = ("As an Amazon Associate I earn from qualifying purchases. Links to Amazon on this site "
+                   "are affiliate links. If you buy through one, the site may earn a commission. "
+                   "The price you pay is the same.")
 
 
 def amazon_link(query):
@@ -52,7 +53,7 @@ def page(title, desc, body, depth):
 </main>
 <footer><div class="wrap">
   <p><a href="{up}about/">About</a> · <a href="{up}disclosure/">Affiliate disclosure</a> · <a href="{up}privacy/">Privacy</a></p>
-  <p class="small">{e(DISCLOSURE)} Product details come from manufacturer and retailer specs; prices change, so check the current listing before you buy. Updated {e(S["updated"])}.</p>
+  <p class="small">{e(DISCLOSURE_LONG)} Product details come from manufacturer and retailer specs; prices change, so check the current listing before you buy. Updated {e(S["updated"])}.</p>
 </div></footer>
 </body>
 </html>
@@ -63,6 +64,15 @@ def write(rel, content):
     path = os.path.join(OUT, rel)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     open(path, "w").write(content)
+
+
+def compare_table(g):
+    c = g.get("compare")
+    if not c:
+        return ""
+    head = "".join(f"<th>{e(x)}</th>" for x in c["cols"])
+    rows = "".join("<tr>" + "".join(f"<td>{e(x)}</td>" for x in r) + "</tr>" for r in c["rows"])
+    return f'<div class="tablewrap"><table class="compare"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>'
 
 
 def guide_page(g):
@@ -87,6 +97,7 @@ def guide_page(g):
   <h1>{e(g["title"])}</h1>
   <p class="lede">{e(g["intro"])}</p>
   <div class="quick"><h3>Quick picks</h3><ol>{quick}</ol></div>
+  {compare_table(g)}
   {''.join(cards)}
   <section class="look"><h2>What to look for</h2><ul>{look}</ul></section>
 </article>"""
@@ -147,6 +158,11 @@ h2{font-size:23px;line-height:1.3;margin:0 0 10px}
 .specs li{margin:2px 0}
 .btn{display:inline-block;background:var(--dark);color:#fff;text-decoration:none;font-weight:700;border-radius:8px;padding:11px 18px;margin-top:4px}
 .btn:hover{background:var(--accent)}
+.tablewrap{overflow-x:auto;margin:0 0 24px}
+.compare{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:8px;font-size:15px}
+.compare th,.compare td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);white-space:nowrap}
+.compare th{background:var(--dark);color:#fff;font-weight:600}
+.compare tr:last-child td{border-bottom:0}
 .look{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 24px}
 .look li{margin:6px 0}
 footer{border-top:1px solid var(--line);background:#fff;color:var(--muted);font-size:14px}
@@ -167,13 +183,13 @@ def main():
         guide_page(g)
     simple("about", "About Shop Floor Picks", [
         "Shop Floor Picks is run by Hunter Lane, a CNC plasma table operator and small fab-shop owner in Georgia.",
-        "The guides cover the welding, grinding and shop gear that comes up every day on a fab-shop floor. Picks are chosen from manufacturer specs and retailer listings, with an eye for what holds up in a working shop. Nobody pays to be on a list.",
-        "Spot a mistake or a spec that changed? The guides get updated as products change.",
+        "The guides cover the welding, grinding and shop gear that comes up every day on a fab-shop floor. Picks are based on manufacturer specs and retailer listings. No brand pays to be on a list.",
+        "Specs change when manufacturers update a model. The guides are checked and updated when that happens.",
     ])
     simple("disclosure", "Affiliate disclosure", [
-        DISCLOSURE,
+        DISCLOSURE_LONG,
         "Shop Floor Picks is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. It may also join other retailers' affiliate programs.",
-        "Commissions never change what a product costs you, and they don't decide which products make a list.",
+        "Commissions don't change what you pay, and they don't decide which products make a list.",
     ])
     simple("privacy", "Privacy policy", [
         "This site does not use analytics, ads or its own cookies, and it does not collect personal information.",
