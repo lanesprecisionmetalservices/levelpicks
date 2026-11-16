@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lanesprecisionmetalservices.github.io/shopfloor-picks/sitemap.xml
