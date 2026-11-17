@@ -182,6 +182,14 @@ def main():
     write("style.css", CSS.strip() + "\n")
     write(".nojekyll", "")
     home()
+    # 3D storefront becomes the home page; the plain guide list moves to /guides/
+    sf = os.path.join(ROOT, "storefront.html")
+    if os.path.exists(sf):
+        os.makedirs(os.path.join(OUT, "guides"), exist_ok=True)
+        shutil.move(os.path.join(OUT, "index.html"), os.path.join(OUT, "guides", "index.html"))
+        content = open(os.path.join(OUT, "guides", "index.html")).read().replace('href="guides/', 'href="./').replace('href="style.css"', 'href="../style.css"').replace('href="about/', 'href="../about/').replace('href="disclosure/', 'href="../disclosure/').replace('href="privacy/', 'href="../privacy/').replace('href="#guides"', 'href="./"').replace('class="brand" href=""', 'class="brand" href="../"')
+        open(os.path.join(OUT, "guides", "index.html"), "w").write(content)
+        shutil.copy(sf, os.path.join(OUT, "index.html"))
     for g in S["guides"]:
         guide_page(g)
     simple("about", "About Level Picks", [
@@ -200,7 +208,7 @@ def main():
         "When you click a link to Amazon or another retailer, that site may set cookies to credit the referral. Their own privacy policies apply once you leave this site.",
     ])
     # sitemap
-    urls = ["", "about/", "disclosure/", "privacy/"] + [f"guides/{g['slug']}/" for g in S["guides"]]
+    urls = ["", "guides/", "about/", "disclosure/", "privacy/"] + [f"guides/{g['slug']}/" for g in S["guides"]]
     sm = "".join(f"<url><loc>{S['base_url']}/{u}</loc></url>" for u in urls)
     write("sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {S['base_url']}/sitemap.xml\n")
