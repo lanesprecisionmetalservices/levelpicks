@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Builds the Shop Floor Picks static site from site.json into ./docs.
+"""Builds the Level Picks static site from site.json into ./docs.
 
 Add a product: append an object to a guide's "products" list in site.json.
 Add a guide:  append an object to "guides".
@@ -32,7 +32,7 @@ def product_link(p):
 
 def page(title, desc, body, depth):
     up = "../" * depth
-    nav = "".join(f'<a href="{up}guides/{g["slug"]}/">{e(g["short"])}</a>' for g in S["guides"])
+    nav = f'<a href="{up}#guides">All guides</a><a href="{up}about/">About</a>'
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,7 +44,7 @@ def page(title, desc, body, depth):
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="{up}">{e(S["name"])}</a>
+  <a class="brand" href="{up}"><span class="vial"><i></i></span>{e(S["name"])}</a>
   <nav>{nav}</nav>
 </div></header>
 <div class="note"><div class="wrap">{e(DISCLOSURE)}</div></div>
@@ -87,7 +87,7 @@ def guide_page(g):
   <ul class="specs">{specs}</ul>
   <p><strong>Good for:</strong> {e(p["good_for"])}</p>
   <p><strong>Watch for:</strong> {e(p["watch_for"])}</p>
-  <a class="btn" href="{e(product_link(p))}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>
+  <a class="btn" href="{e(product_link(p))}" target="_blank" rel="sponsored nofollow noopener">{e(p.get("cta", "Check price on Amazon"))}</a>
 </article>""")
     quick = "".join(f'<li><a href="#pick-{i}">{e(p["badge"])}: {e(p["name"])}</a></li>'
                     for i, p in enumerate(g["products"], 1))
@@ -109,15 +109,15 @@ def home():
 <a class="tile" href="guides/{g['slug']}/">
   <h2>{e(g["title"])}</h2>
   <p>{e(g["intro"])}</p>
-  <span>{len(g["products"])} picks →</span>
+  <span>{len(g["products"])} pick{"s" if len(g["products"]) != 1 else ""} →</span>
 </a>""" for g in S["guides"])
     body = f"""
 <section class="hero">
   <h1>{e(S["name"])}</h1>
   <p class="lede">{e(S["tagline"])}</p>
 </section>
-<section class="tiles">{tiles}</section>"""
-    write("index.html", page(f'{S["name"]}: welding and fab-shop gear guides', S["tagline"], body, 0))
+<section class="tiles" id="guides">{tiles}</section>"""
+    write("index.html", page(f'{S["name"]}: honest product picks and gift guides', S["tagline"], body, 0))
 
 
 def simple(slug, title, paras):
@@ -126,14 +126,17 @@ def simple(slug, title, paras):
 
 
 CSS = """
-:root{--ink:#1d1f22;--muted:#5b616b;--line:#e3e5e8;--bg:#f6f6f4;--card:#fff;--accent:#e2571b;--dark:#15171a}
+:root{--ink:#1d1f22;--muted:#5b616b;--line:#e3e5e8;--bg:#f6f6f4;--card:#fff;--accent:#b7791f;--dark:#0b1220}
 *{box-sizing:border-box}
 body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
 .wrap{max-width:860px;margin:0 auto;padding:0 20px}
 a{color:var(--accent)}
 .top{background:var(--dark);color:#fff}
 .top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 20px;padding-top:14px;padding-bottom:14px}
-.brand{color:#fff;font-weight:800;font-size:20px;text-decoration:none;letter-spacing:.2px}
+.brand{color:#fff;font-weight:800;font-size:20px;text-decoration:none;letter-spacing:1.5px;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.vial{display:inline-block;width:38px;height:16px;border:3px solid #ffc531;border-radius:10px;background:rgba(155,225,93,.25);position:relative}
+.vial i{position:absolute;left:11px;top:2px;width:10px;height:6px;border-radius:50%;background:#fff}
+.top nav a{font-weight:600}
 .top nav a{color:#d6d8db;text-decoration:none;margin-left:18px;font-size:15px}
 .top nav a:first-child{margin-left:0}
 .top nav a:hover{color:#fff}
@@ -153,7 +156,7 @@ h2{font-size:23px;line-height:1.3;margin:0 0 10px}
 .quick h3{margin:4px 0 4px;font-size:15px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}
 .quick ol{margin:0;padding-left:20px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px 24px;margin:0 0 20px}
-.badge{display:inline-block;background:var(--accent);color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;border-radius:4px;padding:3px 8px;margin-bottom:10px}
+.badge{display:inline-block;background:#ffc531;color:#0b1220;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;border-radius:4px;padding:3px 8px;margin-bottom:10px}
 .specs{background:var(--bg);border-radius:8px;padding:12px 16px 12px 34px;margin:12px 0}
 .specs li{margin:2px 0}
 .btn{display:inline-block;background:var(--dark);color:#fff;text-decoration:none;font-weight:700;border-radius:8px;padding:11px 18px;margin-top:4px}
@@ -181,14 +184,14 @@ def main():
     home()
     for g in S["guides"]:
         guide_page(g)
-    simple("about", "About Shop Floor Picks", [
-        "Shop Floor Picks is run by Hunter Lane, a CNC plasma table operator and small fab-shop owner in Georgia.",
-        "The guides cover the welding, grinding and shop gear that comes up every day on a fab-shop floor. Picks are based on manufacturer specs and retailer listings. No brand pays to be on a list.",
+    simple("about", "About Level Picks", [
+        "Level Picks is run by a CNC plasma table operator and small fab-shop owner in Georgia.",
+        "The guides cover gifts, car and garage gear, shop tools and deals worth knowing about. Picks are based on manufacturer specs and retailer listings, and each guide says what to watch out for. No brand pays to be on a list.",
         "Specs change when manufacturers update a model. The guides are checked and updated when that happens.",
     ])
     simple("disclosure", "Affiliate disclosure", [
         DISCLOSURE_LONG,
-        "Shop Floor Picks is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. It may also join other retailers' affiliate programs.",
+        "Level Picks is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. It may also join other retailers' affiliate programs.",
         "Commissions don't change what you pay, and they don't decide which products make a list.",
     ])
     simple("privacy", "Privacy policy", [

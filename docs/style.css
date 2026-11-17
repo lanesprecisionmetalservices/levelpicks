@@ -1,11 +1,14 @@
-:root{--ink:#1d1f22;--muted:#5b616b;--line:#e3e5e8;--bg:#f6f6f4;--card:#fff;--accent:#e2571b;--dark:#15171a}
+:root{--ink:#1d1f22;--muted:#5b616b;--line:#e3e5e8;--bg:#f6f6f4;--card:#fff;--accent:#b7791f;--dark:#0b1220}
 *{box-sizing:border-box}
 body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
 .wrap{max-width:860px;margin:0 auto;padding:0 20px}
 a{color:var(--accent)}
 .top{background:var(--dark);color:#fff}
 .top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 20px;padding-top:14px;padding-bottom:14px}
-.brand{color:#fff;font-weight:800;font-size:20px;text-decoration:none;letter-spacing:.2px}
+.brand{color:#fff;font-weight:800;font-size:20px;text-decoration:none;letter-spacing:1.5px;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.vial{display:inline-block;width:38px;height:16px;border:3px solid #ffc531;border-radius:10px;background:rgba(155,225,93,.25);position:relative}
+.vial i{position:absolute;left:11px;top:2px;width:10px;height:6px;border-radius:50%;background:#fff}
+.top nav a{font-weight:600}
 .top nav a{color:#d6d8db;text-decoration:none;margin-left:18px;font-size:15px}
 .top nav a:first-child{margin-left:0}
 .top nav a:hover{color:#fff}
@@ -25,7 +28,7 @@ h2{font-size:23px;line-height:1.3;margin:0 0 10px}
 .quick h3{margin:4px 0 4px;font-size:15px;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}
 .quick ol{margin:0;padding-left:20px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px 24px;margin:0 0 20px}
-.badge{display:inline-block;background:var(--accent);color:#fff;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;border-radius:4px;padding:3px 8px;margin-bottom:10px}
+.badge{display:inline-block;background:#ffc531;color:#0b1220;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;border-radius:4px;padding:3px 8px;margin-bottom:10px}
 .specs{background:var(--bg);border-radius:8px;padding:12px 16px 12px 34px;margin:12px 0}
 .specs li{margin:2px 0}
 .btn{display:inline-block;background:var(--dark);color:#fff;text-decoration:none;font-weight:700;border-radius:8px;padding:11px 18px;margin-top:4px}

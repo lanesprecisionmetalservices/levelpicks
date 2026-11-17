@@ -1,191 +1,472 @@
 {
-  "name": "Shop Floor Picks",
-  "tagline": "Welding and fab-shop gear guides from a CNC plasma table operator.",
-  "base_url": "https://lanesprecisionmetalservices.github.io/shopfloor-picks",
-  "amazon_tag": "wesellfab01-20",
-  "updated": "November 2026",
-  "guides": [
+ "name": "Level Picks",
+ "tagline": "Honest picks, no hype. Gift ideas, car and garage gear, and deals worth knowing about, checked against the maker's specs.",
+ "base_url": "https://lanesprecisionmetalservices.github.io/levelpicks",
+ "amazon_tag": "wesellfab01-20",
+ "updated": "November 2026",
+ "guides": [
+  {
+   "slug": "black-friday-prime",
+   "title": "Amazon Black Friday 2026: Start a Prime Free Trial First",
+   "short": "Black Friday",
+   "intro": "Amazon's Black Friday Week runs November 19–30, and some of the deals are for Prime members only. If you're new to Prime, a 30-day free trial covers the whole sale.",
+   "what_to_look_for": [
+    "Check that your account shows \"Start your free 30-day trial\". If you've had Prime in the last 12 months you may not qualify.",
+    "Students and young adults can check Prime for Young Adults, which has its own longer trial.",
+    "The trial renews into a paid membership unless you cancel. Set a reminder a few days before it ends.",
+    "Make a list before the sale starts so you only buy what you meant to buy."
+   ],
+   "products": [
     {
-      "slug": "auto-darkening-welding-helmets",
-      "title": "Auto-Darkening Welding Helmets Worth Buying",
-      "short": "Welding helmets",
-      "intro": "You look through your helmet on every weld, grind and cut. Here's a budget hood with a huge window, a premium all-rounder and a digital hood with a separate cut mode.",
-      "what_to_look_for": [
-        "Viewing area: bigger means less tunnel vision, especially out of position. Compare it in square inches.",
-        "Optical clarity rating (EN379): four numbers, 1 is best. 1/1/1/1 is the top rating.",
-        "Arc sensors: 4 sensors catch the arc more reliably when your hand or the part blocks one.",
-        "Shade range and grind mode: a 5-13 or 8-13 weld range plus a grind setting covers MIG, stick, TIG, plasma cutting and grinding.",
-        "Battery: a replaceable coin cell with solar assist beats a sealed battery you can't swap."
-      ],
-      "products": [
-        {
-          "name": "YesWelder LYG-M800H",
-          "badge": "Best budget pick",
-          "search": "YesWelder LYG-M800H welding helmet",
-          "summary": "A low-cost hood with the biggest listed window of the three and four sensors.",
-          "specs": [
-            "Viewing area: 3.93 x 3.66 in (about 14.4 sq in)",
-            "4 arc sensors",
-            "Shade ranges: 4/5-9/9-13 (with grind)",
-            "Solar plus replaceable lithium battery",
-            "Weight: about 2.2 lb"
-          ],
-          "good_for": "Beginners, garage welders, and anyone who wants a spare hood that still has a big screen.",
-          "watch_for": "It's a budget hood, so expect simpler headgear and fewer settings than the Lincoln or Miller. Check the listing for the exact clarity rating; it varies between versions."
-        },
-        {
-          "name": "Lincoln Electric Viking 3350",
-          "badge": "Best all-rounder",
-          "search": "Lincoln Electric Viking 3350 welding helmet",
-          "summary": "Lincoln's top-of-the-line helmet series, with the top optical clarity rating.",
-          "specs": [
-            "Viewing area: 12.5 sq in (3.74 x 3.34 in)",
-            "1/1/1/1 optical clarity with 4C lens technology",
-            "4 arc sensors, 1/25,000 sec switching",
-            "Shade 5-13, grind mode",
-            "Replaceable CR2450 battery with solar assist",
-            "TIG rated down to 2 amps"
-          ],
-          "good_for": "Daily welders who want top-rated optics, low-amp TIG, and a hood that lasts years.",
-          "watch_for": "It's sold in lots of graphic designs under different part numbers. The lens and specs are the same. The newer 3350 ADV is a different digital model with a slightly smaller window."
-        },
-        {
-          "name": "Miller Digital Infinity (ClearLight 4x)",
-          "badge": "Best for cutting",
-          "search": "Miller Digital Infinity ClearLight 4x welding helmet",
-          "summary": "Miller's widescreen hood, with digital controls and a separate mode for plasma and torch cutting.",
-          "specs": [
-            "Viewing area: 13.4 sq in",
-            "4 arc sensors",
-            "Modes: Weld (8-13), Cut (5-8), Grind, X-Mode",
-            "Digital controls for shade, delay and sensitivity",
-            "ClearLight 4x lens"
-          ],
-          "good_for": "Welders who also do a lot of plasma or torch cutting, and anyone who wants digital controls.",
-          "watch_for": "It's the priciest of the three. The older ClearLight 2.0 version is discontinued, so make sure the listing says ClearLight 4x."
-        }
-      ],
-      "compare": {
-        "cols": [
-          "Helmet",
-          "Viewing area",
-          "Sensors",
-          "Weld shades"
-        ],
-        "rows": [
-          [
-            "YesWelder LYG-M800H",
-            "About 14.4 sq in",
-            "4",
-            "9-13"
-          ],
-          [
-            "Lincoln Viking 3350",
-            "12.5 sq in",
-            "4",
-            "5-13"
-          ],
-          [
-            "Miller Digital Infinity",
-            "13.4 sq in",
-            "4",
-            "8-13"
-          ]
-        ]
-      }
+     "name": "Amazon Prime 30-day free trial",
+     "badge": "Start here",
+     "url": "https://www.amazon.com/tryprimefree?tag=wesellfab01-20",
+     "cta": "Start the free trial on Amazon",
+     "summary": "Prime members get access to Prime-only deals during Black Friday Week, plus fast free shipping on eligible items. Eligible new members can try it free for 30 days.",
+     "specs": [
+      "30-day free trial for eligible new members",
+      "Some Black Friday and Cyber Monday deals are Prime-only",
+      "Includes Prime Video, Amazon Music and Prime Reading"
+     ],
+     "good_for": "Anyone planning to shop Amazon's Black Friday Week (Nov 19–30) or Cyber Monday (Nov 30).",
+     "watch_for": "It renews into a paid membership unless you cancel before the trial ends."
+    }
+   ]
+  },
+  {
+   "slug": "audible-free-trial",
+   "title": "Audible Free Trial: An Audiobook for the Drive or the Shop",
+   "short": "Audible",
+   "intro": "Audible gives new members a 30-day free trial. The Standard plan lets you pick one audiobook a month from the full catalog. Good for long drives, long shifts and the gym.",
+   "what_to_look_for": [
+    "Standard ($8.99/month after the trial) includes one audiobook selection a month.",
+    "Premium ($14.95/month after the trial) includes monthly credits; check the sign-up page for current terms.",
+    "Both plans renew after 30 days unless you cancel.",
+    "The Audible app works offline once a book is downloaded, so it works in a shop or truck with no signal."
+   ],
+   "products": [
+    {
+     "name": "Audible free trial",
+     "badge": "Free for 30 days",
+     "url": "https://www.amazon.com/Audible-Free-Trial-Digital-Membership/dp/B00NB86OYE?tag=wesellfab01-20",
+     "cta": "Start the free trial",
+     "summary": "A 30-day free trial for new Audible members. Pick a book, download it, and listen in the truck, at work or at the gym.",
+     "specs": [
+      "30-day free trial for new members",
+      "Standard: 1 audiobook a month, then $8.99/month",
+      "Cancel anytime before the trial ends"
+     ],
+     "good_for": "Commutes, long shifts, road trips and anyone who'd rather listen than read.",
+     "watch_for": "Prices and trial offers change. Check the sign-up page before you start."
+    }
+   ]
+  },
+  {
+   "slug": "gta-6-launch-gear",
+   "title": "GTA 6 Launch Gear: Two PS5 Upgrades Worth Grabbing",
+   "short": "GTA 6 gear",
+   "intro": "GTA 6 launches November 19, 2026 on PS5 and Xbox Series X|S. These two PS5 add-ons fix the most common launch-night problems: weak sound and dead controllers.",
+   "what_to_look_for": [
+    "Make sure accessories say PS5 (or DualSense) compatible.",
+    "Wired headsets plug into the DualSense controller's 3.5 mm jack, so there's nothing to pair.",
+    "A charging dock is most useful if you own two controllers."
+   ],
+   "products": [
+    {
+     "name": "HyperX Cloud Stinger 2 Core (PlayStation)",
+     "badge": "Sound upgrade",
+     "search": "HyperX Cloud Stinger 2 Core PlayStation",
+     "summary": "An entry-level wired headset made for PlayStation, with 40 mm drivers tuned for bass, a swivel-to-mute mic and volume control on the headset.",
+     "specs": [
+      "40 mm dynamic drivers with neodymium magnets",
+      "Swivel-to-mute microphone",
+      "Volume control on the headset",
+      "About 275 g",
+      "Wired, 3.5 mm; PS5 and PS4",
+      "2-year warranty"
+     ],
+     "good_for": "Anyone gaming through TV speakers who wants better sound and party chat for little money.",
+     "watch_for": "It's wired stereo, not wireless or surround."
     },
     {
-      "slug": "4-5-inch-angle-grinders",
-      "title": "The Best 4-1/2\" Corded Angle Grinders for the Shop",
-      "short": "Angle grinders",
-      "intro": "In a fab shop the 4-1/2\" grinder does the cleanup: mill scale, bevels, weld knock-down and dressing plasma-cut edges. Here's a heavy-duty pick, a slim-grip pick and a budget pick.",
-      "what_to_look_for": [
-        "Amps: more amps means less bogging under load. 6 to 7.5 A is fine for general work; 11 A is heavy-duty.",
-        "Switch type: a paddle switch stops the tool when you let go. Slide switches stay on, so be extra careful with them.",
-        "Weight and grip size: you'll hold it for hours, so a pound matters.",
-        "Spindle thread: 5/8\"-11 is standard in the US and fits common wheels and discs.",
-        "Guard: a tool-free adjustable guard saves time when you switch between grinding and cutting."
-      ],
-      "products": [
-        {
-          "name": "DeWalt DWE402",
-          "badge": "Most power",
-          "search": "DeWalt DWE402 angle grinder",
-          "summary": "An 11-amp paddle-switch grinder, the most powerful of the three.",
-          "specs": [
-            "11 A, 11,000 RPM",
-            "Paddle switch with lock-on",
-            "5/8\"-11 spindle",
-            "Tool-free One-Touch guard",
-            "Weight: 4.6 lb",
-            "3-year limited warranty"
-          ],
-          "good_for": "Heavy grinding, beveling plate and running flap discs hard.",
-          "watch_for": "No brake. The DWE402W version adds an abrasive wheel in the box."
-        },
-        {
-          "name": "Makita 9557PB",
-          "badge": "Best slim grip",
-          "search": "Makita 9557PB angle grinder",
-          "summary": "A slim, light grinder built with extra dust protection for the motor.",
-          "specs": [
-            "7.5 A, 11,000 RPM",
-            "Large paddle switch",
-            "Weight: 4.5 lb, 2-1/2\" barrel grip",
-            "Sealed (labyrinth) motor protection against dust",
-            "AC/DC switch for generators and other power sources"
-          ],
-          "good_for": "Long sessions of finish grinding and edge cleanup, where a slim grip matters more than raw power.",
-          "watch_for": "Less power than the DeWalt when you lean on it with a big flap disc."
-        },
-        {
-          "name": "Metabo HPT G12SR4",
-          "badge": "Best budget pick",
-          "search": "Metabo HPT G12SR4 angle grinder",
-          "summary": "An inexpensive grinder that comes ready to work with five wheels and a case.",
-          "specs": [
-            "6.2 A, 980 W, 10,000 RPM",
-            "Slide switch",
-            "Weight: 4.0 lb",
-            "Spindle lock",
-            "Includes 5 grinding wheels, side handle, case"
-          ],
-          "good_for": "A first grinder, a second grinder set up with a wire wheel, or light home-shop work.",
-          "watch_for": "Slide switch stays on if you drop it. 1-year base warranty."
-        }
-      ],
-      "compare": {
-        "cols": [
-          "Grinder",
-          "Amps",
-          "Max RPM",
-          "Switch",
-          "Weight"
-        ],
-        "rows": [
-          [
-            "DeWalt DWE402",
-            "11 A",
-            "11,000",
-            "Paddle, lock-on",
-            "4.6 lb"
-          ],
-          [
-            "Makita 9557PB",
-            "7.5 A",
-            "11,000",
-            "Paddle",
-            "4.5 lb"
-          ],
-          [
-            "Metabo HPT G12SR4",
-            "6.2 A",
-            "10,000",
-            "Slide",
-            "4.0 lb"
-          ]
-        ]
-      }
+     "name": "Sony DualSense Charging Station",
+     "badge": "Never a dead controller",
+     "search": "Sony DualSense Charging Station",
+     "summary": "Sony's official dock charges up to two DualSense controllers at once with a click-in design. Sony says they charge as fast as when plugged into the PS5, and it frees up the console's USB ports.",
+     "specs": [
+      "Charges 2 DualSense controllers at once",
+      "Click-in docking",
+      "Includes AC adapter",
+      "Frees up PS5 USB ports"
+     ],
+     "good_for": "Households with two controllers, or anyone tired of hunting for a cable.",
+     "watch_for": "Controllers are sold separately."
     }
-  ]
+   ]
+  },
+  {
+   "slug": "car-emergency-kit",
+   "title": "Car Emergency Kit: Jump Starter, Tire Inflator and Code Reader",
+   "short": "Car kit",
+   "intro": "Three things that get you moving again without a second car, a gas station air machine or a trip to the shop just to find out what the check engine light means.",
+   "what_to_look_for": [
+    "Jump starters: match the engine size rating to your vehicle (gas and diesel ratings differ).",
+    "Tire inflators: auto shut-off at a set PSI saves you from over-filling.",
+    "Code readers: check which systems (ABS, airbag, transmission) it reads for your make.",
+    "Recharge battery-powered gear every few months so it's ready in winter."
+   ],
+   "products": [
+    {
+     "name": "NOCO Boost GB40 jump starter",
+     "badge": "Dead battery",
+     "search": "NOCO Boost GB40",
+     "summary": "A 1,000-amp lithium jump starter for 12-volt batteries, rated for gas engines up to 6.0 liters and diesel engines up to 3.0 liters.",
+     "specs": [
+      "1,000 A peak",
+      "Gas engines up to 6.0 L, diesel up to 3.0 L",
+      "Spark-proof with reverse-polarity protection",
+      "Up to 20 jump starts per charge",
+      "100-lumen LED flashlight, USB charging for phones",
+      "About 2.4 lb"
+     ],
+     "good_for": "Cars, small trucks, boats and mowers; a backup for cold mornings.",
+     "watch_for": "Big diesel trucks need a larger model. Top it off every few months."
+    },
+    {
+     "name": "AstroAI L7 cordless tire inflator",
+     "badge": "Low tire",
+     "search": "AstroAI L7 tire inflator",
+     "summary": "A cordless inflator that weighs under a pound. Set the PSI and it stops when it gets there.",
+     "specs": [
+      "Up to 150 PSI, 17 L/min airflow",
+      "Auto shut-off at your set pressure",
+      "Modes for car, motorcycle, bike and balls",
+      "Built-in light",
+      "AstroAI says 30 to 36 PSI on a 195/65R15 tire in about 1.5 minutes"
+     ],
+     "good_for": "Topping off car, motorcycle and bike tires; glovebox storage.",
+     "watch_for": "Not made for heavy-duty off-road, RV, truck or trailer tires."
+    },
+    {
+     "name": "BlueDriver Bluetooth Pro OBDII scan tool",
+     "badge": "Check engine light",
+     "search": "BlueDriver Bluetooth Pro OBDII Scan Tool",
+     "summary": "Plugs into the OBD2 port and connects to a free phone app. Reads and clears codes and gives vehicle-specific repair reports.",
+     "specs": [
+      "Reads and clears codes, including ABS, airbag and transmission on many vehicles",
+      "Vehicle-specific repair reports with possible causes and reported fixes",
+      "Live data",
+      "No subscription fee",
+      "iPhone and Android"
+     ],
+     "good_for": "DIYers who want to know what's wrong before paying a shop.",
+     "watch_for": "Works on gas vehicles 1996 and newer; enhanced-code coverage varies by make."
+    }
+   ]
+  },
+  {
+   "slug": "garage-stocking-stuffers",
+   "title": "3 Stocking Stuffers for the Person Who Lives in the Garage",
+   "short": "Stocking stuffers",
+   "intro": "Small, cheap and actually useful. All three fit in a stocking and get used every week.",
+   "what_to_look_for": [
+    "Magnetic tools: check the pull rating if they'll lift heavier parts.",
+    "Work lights: rechargeable with a magnetic base is the most useful combination.",
+    "Look at the listing's size and weight; small and light wins for stocking stuffers."
+   ],
+   "products": [
+    {
+     "name": "Magnetic wristband",
+     "badge": "Under the hood",
+     "search": "magnetic wristband for holding screws",
+     "summary": "A wristband with magnets sewn in. Screws, bolts and bits stay on your wrist instead of rolling off the fender.",
+     "specs": [
+      "Holds screws, nails, bits and small sockets",
+      "Adjustable strap"
+     ],
+     "good_for": "Mechanics, woodworkers and anyone who drops screws.",
+     "watch_for": "Keep it away from phones, watches and cards with magnetic strips."
+    },
+    {
+     "name": "Telescoping magnetic pickup tool",
+     "badge": "Dropped bolt",
+     "search": "telescoping magnetic pickup tool",
+     "summary": "Extends to reach the bolt that rolled under the engine or behind the bench.",
+     "specs": [
+      "Telescoping shaft",
+      "Magnetic tip",
+      "Some include an LED light"
+     ],
+     "good_for": "Engine bays, under benches and tight spaces.",
+     "watch_for": "Only picks up steel and iron, not aluminum, brass or stainless fasteners."
+    },
+    {
+     "name": "Rechargeable LED work light with magnetic base",
+     "badge": "See what you're doing",
+     "search": "rechargeable LED work light magnetic base",
+     "summary": "A small rechargeable light that sticks to a hood, fender or toolbox so both hands stay free.",
+     "specs": [
+      "Rechargeable battery",
+      "Magnetic base",
+      "Many have a hook and folding stand"
+     ],
+     "good_for": "Under-hood work, under-dash work and power outages.",
+     "watch_for": "Battery life and brightness vary a lot between models; check the listing."
+    }
+   ]
+  },
+  {
+   "slug": "thanksgiving-kitchen",
+   "title": "Thanksgiving Kitchen: A Fast Thermometer and a Skillet That Lasts",
+   "short": "Kitchen",
+   "intro": "The USDA says turkey is safe at 165°F, measured in the thickest part of the breast and the innermost part of the thigh and wing. A fast thermometer takes the guessing out. The skillet is a gift that outlasts everyone at the table.",
+   "what_to_look_for": [
+    "Instant-read thermometers: look at read time, accuracy and whether it's water resistant.",
+    "Cast iron: pre-seasoned pans are ready to cook out of the box.",
+    "Cast iron is hand-wash only; dry it right away so it doesn't rust."
+   ],
+   "products": [
+    {
+     "name": "ThermoPro TP19H instant-read thermometer",
+     "badge": "Turkey day",
+     "search": "ThermoPro TP19H",
+     "summary": "An instant-read thermometer with a backlit display that rotates for either hand and a magnetic back for the fridge.",
+     "specs": [
+      "Reads in about 3–4 seconds",
+      "±0.9°F accuracy (14–212°F)",
+      "-58°F to 572°F range",
+      "4-inch stainless probe",
+      "IP65 water resistant",
+      "Auto-rotating backlit display, motion sleep/wake"
+     ],
+     "good_for": "Turkey, steaks, roasts, frying oil and candy.",
+     "watch_for": "ThermoPro is rebranding as TempPro; you may receive either name."
+    },
+    {
+     "name": "Lodge 10.25-inch cast iron skillet",
+     "badge": "Lasts generations",
+     "search": "Lodge 10.25 inch cast iron skillet",
+     "summary": "Lodge's classic skillet, made in the USA and pre-seasoned with vegetable oil.",
+     "specs": [
+      "10.25-inch cast iron",
+      "Made in the USA (Lodge, since 1896)",
+      "Pre-seasoned, ready to use",
+      "Stove, oven, grill or campfire; induction compatible"
+     ],
+     "good_for": "Searing, cornbread, eggs, campfire cooking, and gifts.",
+     "watch_for": "Hand-wash only. Dry it right away and wipe on a thin coat of oil."
+    }
+   ]
+  },
+  {
+   "slug": "gifts-for-readers",
+   "title": "Gift for Readers: Kindle Paperwhite",
+   "short": "Kindle",
+   "intro": "For the person who reads before bed. Amazon devices often see their best prices around Cyber Monday (November 30).",
+   "what_to_look_for": [
+    "Paperwhite vs. basic Kindle: the Paperwhite is waterproof and has a bigger screen and longer battery life.",
+    "Ad-supported versions show ads on the lock screen; the ad-free version costs more.",
+    "Check whether a cover or charger is included in any bundle."
+   ],
+   "products": [
+    {
+     "name": "Kindle Paperwhite (newest model)",
+     "badge": "Reads before bed",
+     "search": "Kindle Paperwhite newest model",
+     "summary": "A 7-inch glare-free e-ink reader with an adjustable warm light, waterproofing and long battery life.",
+     "specs": [
+      "7-inch glare-free 300 ppi display",
+      "Waterproof (IPX8)",
+      "Amazon rates the battery for up to 12 weeks",
+      "16 GB storage",
+      "USB-C charging"
+     ],
+     "good_for": "Bedtime reading, the bathtub, the beach and travel.",
+     "watch_for": "The cheaper version shows lock-screen ads."
+    }
+   ]
+  },
+  {
+   "slug": "auto-darkening-welding-helmets",
+   "title": "Auto-Darkening Welding Helmets Worth Buying",
+   "short": "Welding helmets",
+   "intro": "You look through your helmet on every weld, grind and cut. Here's a budget hood with a huge window, a premium all-rounder and a digital hood with a separate cut mode.",
+   "what_to_look_for": [
+    "Viewing area: bigger means less tunnel vision, especially out of position. Compare it in square inches.",
+    "Optical clarity rating (EN379): four numbers, 1 is best. 1/1/1/1 is the top rating.",
+    "Arc sensors: 4 sensors catch the arc more reliably when your hand or the part blocks one.",
+    "Shade range and grind mode: a 5-13 or 8-13 weld range plus a grind setting covers MIG, stick, TIG, plasma cutting and grinding.",
+    "Battery: a replaceable coin cell with solar assist beats a sealed battery you can't swap."
+   ],
+   "products": [
+    {
+     "name": "YesWelder LYG-M800H",
+     "badge": "Best budget pick",
+     "search": "YesWelder LYG-M800H welding helmet",
+     "summary": "A low-cost hood with the biggest listed window of the three and four sensors.",
+     "specs": [
+      "Viewing area: 3.93 x 3.66 in (about 14.4 sq in)",
+      "4 arc sensors",
+      "Shade ranges: 4/5-9/9-13 (with grind)",
+      "Solar plus replaceable lithium battery",
+      "Weight: about 2.2 lb"
+     ],
+     "good_for": "Beginners, garage welders, and anyone who wants a spare hood that still has a big screen.",
+     "watch_for": "It's a budget hood, so expect simpler headgear and fewer settings than the Lincoln or Miller. Check the listing for the exact clarity rating; it varies between versions."
+    },
+    {
+     "name": "Lincoln Electric Viking 3350",
+     "badge": "Best all-rounder",
+     "search": "Lincoln Electric Viking 3350 welding helmet",
+     "summary": "Lincoln's top-of-the-line helmet series, with the top optical clarity rating.",
+     "specs": [
+      "Viewing area: 12.5 sq in (3.74 x 3.34 in)",
+      "1/1/1/1 optical clarity with 4C lens technology",
+      "4 arc sensors, 1/25,000 sec switching",
+      "Shade 5-13, grind mode",
+      "Replaceable CR2450 battery with solar assist",
+      "TIG rated down to 2 amps"
+     ],
+     "good_for": "Daily welders who want top-rated optics, low-amp TIG, and a hood that lasts years.",
+     "watch_for": "It's sold in lots of graphic designs under different part numbers. The lens and specs are the same. The newer 3350 ADV is a different digital model with a slightly smaller window."
+    },
+    {
+     "name": "Miller Digital Infinity (ClearLight 4x)",
+     "badge": "Best for cutting",
+     "search": "Miller Digital Infinity ClearLight 4x welding helmet",
+     "summary": "Miller's widescreen hood, with digital controls and a separate mode for plasma and torch cutting.",
+     "specs": [
+      "Viewing area: 13.4 sq in",
+      "4 arc sensors",
+      "Modes: Weld (8-13), Cut (5-8), Grind, X-Mode",
+      "Digital controls for shade, delay and sensitivity",
+      "ClearLight 4x lens"
+     ],
+     "good_for": "Welders who also do a lot of plasma or torch cutting, and anyone who wants digital controls.",
+     "watch_for": "It's the priciest of the three. The older ClearLight 2.0 version is discontinued, so make sure the listing says ClearLight 4x."
+    }
+   ],
+   "compare": {
+    "cols": [
+     "Helmet",
+     "Viewing area",
+     "Sensors",
+     "Weld shades"
+    ],
+    "rows": [
+     [
+      "YesWelder LYG-M800H",
+      "About 14.4 sq in",
+      "4",
+      "9-13"
+     ],
+     [
+      "Lincoln Viking 3350",
+      "12.5 sq in",
+      "4",
+      "5-13"
+     ],
+     [
+      "Miller Digital Infinity",
+      "13.4 sq in",
+      "4",
+      "8-13"
+     ]
+    ]
+   }
+  },
+  {
+   "slug": "4-5-inch-angle-grinders",
+   "title": "The Best 4-1/2\" Corded Angle Grinders for the Shop",
+   "short": "Angle grinders",
+   "intro": "In a fab shop the 4-1/2\" grinder does the cleanup: mill scale, bevels, weld knock-down and dressing plasma-cut edges. Here's a heavy-duty pick, a slim-grip pick and a budget pick.",
+   "what_to_look_for": [
+    "Amps: more amps means less bogging under load. 6 to 7.5 A is fine for general work; 11 A is heavy-duty.",
+    "Switch type: a paddle switch stops the tool when you let go. Slide switches stay on, so be extra careful with them.",
+    "Weight and grip size: you'll hold it for hours, so a pound matters.",
+    "Spindle thread: 5/8\"-11 is standard in the US and fits common wheels and discs.",
+    "Guard: a tool-free adjustable guard saves time when you switch between grinding and cutting."
+   ],
+   "products": [
+    {
+     "name": "DeWalt DWE402",
+     "badge": "Most power",
+     "search": "DeWalt DWE402 angle grinder",
+     "summary": "An 11-amp paddle-switch grinder, the most powerful of the three.",
+     "specs": [
+      "11 A, 11,000 RPM",
+      "Paddle switch with lock-on",
+      "5/8\"-11 spindle",
+      "Tool-free One-Touch guard",
+      "Weight: 4.6 lb",
+      "3-year limited warranty"
+     ],
+     "good_for": "Heavy grinding, beveling plate and running flap discs hard.",
+     "watch_for": "No brake. The DWE402W version adds an abrasive wheel in the box."
+    },
+    {
+     "name": "Makita 9557PB",
+     "badge": "Best slim grip",
+     "search": "Makita 9557PB angle grinder",
+     "summary": "A slim, light grinder built with extra dust protection for the motor.",
+     "specs": [
+      "7.5 A, 11,000 RPM",
+      "Large paddle switch",
+      "Weight: 4.5 lb, 2-1/2\" barrel grip",
+      "Sealed (labyrinth) motor protection against dust",
+      "AC/DC switch for generators and other power sources"
+     ],
+     "good_for": "Long sessions of finish grinding and edge cleanup, where a slim grip matters more than raw power.",
+     "watch_for": "Less power than the DeWalt when you lean on it with a big flap disc."
+    },
+    {
+     "name": "Metabo HPT G12SR4",
+     "badge": "Best budget pick",
+     "search": "Metabo HPT G12SR4 angle grinder",
+     "summary": "An inexpensive grinder that comes ready to work with five wheels and a case.",
+     "specs": [
+      "6.2 A, 980 W, 10,000 RPM",
+      "Slide switch",
+      "Weight: 4.0 lb",
+      "Spindle lock",
+      "Includes 5 grinding wheels, side handle, case"
+     ],
+     "good_for": "A first grinder, a second grinder set up with a wire wheel, or light home-shop work.",
+     "watch_for": "Slide switch stays on if you drop it. 1-year base warranty."
+    }
+   ],
+   "compare": {
+    "cols": [
+     "Grinder",
+     "Amps",
+     "Max RPM",
+     "Switch",
+     "Weight"
+    ],
+    "rows": [
+     [
+      "DeWalt DWE402",
+      "11 A",
+      "11,000",
+      "Paddle, lock-on",
+      "4.6 lb"
+     ],
+     [
+      "Makita 9557PB",
+      "7.5 A",
+      "11,000",
+      "Paddle",
+      "4.5 lb"
+     ],
+     [
+      "Metabo HPT G12SR4",
+      "6.2 A",
+      "10,000",
+      "Slide",
+      "4.0 lb"
+     ]
+    ]
+   }
+  }
+ ]
 }
