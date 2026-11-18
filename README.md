@@ -1,7 +1,7 @@
 # Shop Floor Picks
 
 Affiliate buying-guide site for welding and fab-shop gear.
-Live: https://lanesprecisionmetalservices.github.io/shopfloor-picks/
+Live: https://levelpicks.com
 
 ## How it works
 - `site.json` holds everything: site name, Amazon tag, guides and products.

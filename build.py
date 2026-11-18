@@ -181,6 +181,7 @@ def main():
     os.makedirs(OUT)
     write("style.css", CSS.strip() + "\n")
     write(".nojekyll", "")
+    write("CNAME", "levelpicks.com\n")  # keeps the custom domain after each rebuild
     home()
     # 3D storefront becomes the home page; the plain guide list moves to /guides/
     sf = os.path.join(ROOT, "storefront.html")
