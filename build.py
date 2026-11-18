@@ -432,6 +432,8 @@ def main():
     write("style.css", CSS.strip() + "\n")
     write(".nojekyll", "")
     write("CNAME", "levelpicks.com\n")  # keeps the custom domain after each rebuild
+    if os.path.isdir(os.path.join(ROOT, "brand")):
+        shutil.copytree(os.path.join(ROOT, "brand"), os.path.join(OUT, "brand"))  # logo files
     guides_index()
     sf = os.path.join(ROOT, "storefront.html")
     if os.path.exists(sf):
