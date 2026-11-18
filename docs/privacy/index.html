@@ -2,23 +2,69 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Privacy policy | Level Picks</title>
 <meta name="description" content="This site does not use analytics, ads or its own cookies, and it does not collect personal information.">
+<meta name="theme-color" content="#070b16">
+<link rel="canonical" href="https://levelpicks.com/privacy/">
+<meta property="og:title" content="Privacy policy | Level Picks">
+<meta property="og:description" content="This site does not use analytics, ads or its own cookies, and it does not collect personal information.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<header class="top"><div class="wrap">
-  <a class="brand" href="../"><span class="vial"><i></i></span>Level Picks</a>
-  <nav><a href="../#guides">All guides</a><a href="../about/">About</a></nav>
-</div></header>
-<div class="note"><div class="wrap">As an Amazon Associate I earn from qualifying purchases.</div></div>
-<main class="wrap">
-<article class="guide"><h1>Privacy policy</h1><p>This site does not use analytics, ads or its own cookies, and it does not collect personal information.</p><p>The site is hosted on GitHub Pages, which may log basic technical data such as IP addresses for security. See GitHub&#x27;s privacy statement for details.</p><p>When you click a link to Amazon or another retailer, that site may set cookies to credit the referral. Their own privacy policies apply once you leave this site.</p></article>
+<div class="glow" aria-hidden="true"></div>
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="../" aria-label="Level Picks storefront"><span class="vial"><i></i></span>Level Picks</a>
+    <nav class="links">
+      <a href="../">Storefront</a>
+      <a href="../guides/">Guides</a>
+      <a href="../about/">About</a>
+    </nav>
+  </div>
+  <nav class="rail" aria-label="Guides"><div class="rail-in"><a href="../guides/">All guides</a><a href="../guides/black-friday-prime/">Black Friday</a><a href="../guides/audible-free-trial/">Audible</a><a href="../guides/gta-6-launch-gear/">GTA 6 gear</a><a href="../guides/car-emergency-kit/">Car kit</a><a href="../guides/garage-stocking-stuffers/">Stocking stuffers</a><a href="../guides/thanksgiving-kitchen/">Kitchen</a><a href="../guides/gifts-for-readers/">Kindle</a><a href="../guides/auto-darkening-welding-helmets/">Welding helmets</a><a href="../guides/4-5-inch-angle-grinders/">Angle grinders</a></div></nav>
+  <div class="progress" aria-hidden="true"><b></b></div>
+</header>
+<main>
+
+<section class="hero slim">
+  <h1>Privacy policy</h1>
+  <div class="ruler" aria-hidden="true"><span></span></div>
+</section>
+<article class="block prose rv"><p>This site does not use analytics, ads or its own cookies, and it does not collect personal information.</p><p>The site is hosted on GitHub Pages, which may log basic technical data such as IP addresses for security. Fonts load from Google Fonts, which receives your IP address to serve them. See GitHub&#x27;s and Google&#x27;s privacy statements for details.</p><p>When you click a link to Amazon or another retailer, that site may set cookies to credit the referral. Their own privacy policies apply once you leave this site.</p></article>
 </main>
-<footer><div class="wrap">
-  <p><a href="../about/">About</a> · <a href="../disclosure/">Affiliate disclosure</a> · <a href="../privacy/">Privacy</a></p>
-  <p class="small">As an Amazon Associate I earn from qualifying purchases. Links to Amazon on this site are affiliate links. If you buy through one, the site may earn a commission. The price you pay is the same. Product details come from manufacturer and retailer specs; prices change, so check the current listing before you buy. Updated November 2026.</p>
-</div></footer>
+<footer class="foot">
+  <div class="foot-in">
+    <div>
+      <a class="brand" href="../"><span class="vial"><i></i></span>Level Picks</a>
+      <p class="tag">Honest picks, no hype. Gift ideas, car and garage gear, and deals worth knowing about, checked against the maker&#x27;s specs.</p>
+    </div>
+    <nav><a href="../guides/">All guides</a><a href="../about/">About</a><a href="../disclosure/">Affiliate disclosure</a><a href="../privacy/">Privacy</a></nav>
+  </div>
+  <p class="fine">As an Amazon Associate I earn from qualifying purchases. Links to Amazon on this site are affiliate links. If you buy through one, the site may earn a commission. The price you pay is the same. Product details come from manufacturer and retailer specs; prices change, so check the current listing before you buy. Updated November 2026.</p>
+</footer>
+<script>
+(function(){
+  var root=document.documentElement, bar=document.querySelector('.progress b'),
+      bub=document.querySelector('.top .vial i'), top=document.querySelector('.top');
+  function onScroll(){
+    var h=root.scrollHeight-innerHeight, p=h>0?Math.min(1,scrollY/h):0;
+    if(bar) bar.style.transform='scaleX('+p+')';
+    if(bub) bub.style.transform='translateX('+(p*14-7)+'px)';
+    top.classList.toggle('scrolled',scrollY>8);
+  }
+  addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  var rail=document.querySelector('.rail-in'), cur=rail&&rail.querySelector('[aria-current]');
+  if(cur&&cur.offsetLeft+cur.offsetWidth>rail.clientWidth-40){rail.scrollLeft=cur.offsetLeft-(rail.clientWidth-cur.offsetWidth)/2;}
+  var els=document.querySelectorAll('.rv');
+  if(!('IntersectionObserver' in window)){els.forEach(function(x){x.classList.add('in')});return;}
+  var io=new IntersectionObserver(function(es){es.forEach(function(en){
+    if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{rootMargin:'0px 0px -8% 0px'});
+  els.forEach(function(x){io.observe(x)});
+})();
+</script>
 </body>
 </html>
