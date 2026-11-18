@@ -250,23 +250,23 @@ const PRODUCTS = [
   { id: "p1", model: "headset", kicker: "GTA 6 · launches Nov 19", name: "HyperX Cloud Stinger 2 Core",
     tag: "Better sound than your TV speakers, for not much money.",
     bullets: ["40 mm drivers tuned for bass", "Flip the mic up to mute it", "About 275 g, wired 3.5 mm for PS5 / PS4"],
-    catch: "Wired stereo, not wireless or surround.", search: "HyperX Cloud Stinger 2 Core PlayStation", guide: "gta-6-launch-gear", hue: 0xff5a4f },
+    catch: "Wired stereo, not wireless or surround.", asin: "B0BDHYF8YS", search: "HyperX Cloud Stinger 2 Core PlayStation", guide: "gta-6-launch-gear", hue: 0xff5a4f },
   { id: "p2", model: "jumpstarter", kicker: "Winter car kit", name: "NOCO Boost GB40",
     tag: "Jump your own car. No second vehicle needed.",
     bullets: ["1,000 A peak, gas engines to 6.0 L, diesel to 3.0 L", "Spark-proof with reverse-polarity protection", "Up to 20 jump starts per charge, plus a flashlight"],
-    catch: "Big diesel trucks need a larger model.", search: "NOCO Boost GB40", guide: "car-emergency-kit", hue: 0xffc531 },
+    catch: "Big diesel trucks need a larger model.", asin: "B015TKUPIC", search: "NOCO Boost GB40", guide: "car-emergency-kit", hue: 0xffc531 },
   { id: "p3", model: "thermometer", kicker: "Thanksgiving · Nov 26", name: "ThermoPro TP19H",
     tag: "Know the turkey's done. Stop guessing.",
-    bullets: ["Reads in about 3–4 seconds", "IP65 water resistant, flip backlit screen", "USDA safe minimum for turkey: 165°F"],
-    catch: "ThermoPro is rebranding to TempPro; either name may ship.", search: "ThermoPro TP19H", guide: "thanksgiving-kitchen", hue: 0xff8a3d },
+    bullets: ["Reads in about 1 second (per the current listing)", "IP65 water resistant, flip backlit screen", "USDA safe minimum for turkey: 165°F"],
+    catch: "ThermoPro is rebranding to TempPro; either name may ship.", asin: "B07XXSYLL8", search: "ThermoPro TP19H", guide: "thanksgiving-kitchen", hue: 0xff8a3d },
   { id: "p4", model: "skillet", kicker: "The gift that lasts", name: "Lodge 10.25\" Cast Iron Skillet",
     tag: "Made in the USA. Outlives the dinner table.",
     bullets: ["Pre-seasoned, ready out of the box", "Stove, oven, grill or campfire", "Lodge has cast iron in Tennessee since 1896"],
-    catch: "Hand-wash only; dry it right away.", search: "Lodge 10.25 inch cast iron skillet", guide: "thanksgiving-kitchen", hue: 0x9be15d },
+    catch: "Hand-wash only; dry it right away.", asin: "B00006JSUA", search: "Lodge 10.25 inch cast iron skillet", guide: "thanksgiving-kitchen", hue: 0x9be15d },
   { id: "p5", model: "reader", kicker: "Cyber Monday · Nov 30", name: "Kindle Paperwhite",
     tag: "For the person who reads before bed.",
     bullets: ["7-inch glare-free screen", "Waterproof, rated IPX8", "Amazon rates the battery for up to 12 weeks"],
-    catch: "The cheaper version shows lock-screen ads.", search: "Kindle Paperwhite newest model", guide: "gifts-for-readers", hue: 0x7cc7ff },
+    catch: "The cheaper version shows lock-screen ads.", asin: "B0CFPJYX7P", search: "Kindle Paperwhite newest model", guide: "gifts-for-readers", hue: 0x7cc7ff },
 ];
 const GUIDES = [
   ["black-friday-prime", "Black Friday: Prime free trial"], ["audible-free-trial", "Audible free trial"], ["gta-6-launch-gear", "GTA 6 launch gear"],
@@ -274,6 +274,7 @@ const GUIDES = [
   ["gifts-for-readers", "Gifts for readers"], ["auto-darkening-welding-helmets", "Welding helmets"], ["4-5-inch-angle-grinders", "Angle grinders"],
 ];
 const amazon = q => `https://www.amazon.com/s?k=${encodeURIComponent(q)}&tag=${CONFIG.amazonTag}`;
+const buy = p => p.asin ? `https://www.amazon.com/dp/${p.asin}?tag=${CONFIG.amazonTag}` : amazon(p.search);   // direct product page when we have the ASIN
 const guideURL = g => `${CONFIG.site}/guides/${g}/`;
 
 /* ─────────────────────────── DOM build ─────────────────────────── */
@@ -297,7 +298,7 @@ $("#products").innerHTML = PRODUCTS.map((p, i) => `
       <ul>${p.bullets.map(b => `<li>${b}</li>`).join("")}</ul>
       <p class="catch"><b>The catch:</b> ${p.catch}</p>
       <div class="row">
-        <a class="btn primary" href="${amazon(p.search)}" target="_blank" rel="sponsored nofollow noopener">Check Price on Amazon <span class="arr">↗</span></a>
+        <a class="btn primary" href="${buy(p)}" target="_blank" rel="sponsored nofollow noopener">Check Price on Amazon <span class="arr">↗</span></a>
         <button class="btn ghost" data-open="${i}">Quick look</button>
       </div>
     </article>
@@ -585,7 +586,7 @@ async function start() {
     const p = PRODUCTS[i]; focus = i;
     $("#hudKicker").innerHTML = `<i></i>${p.kicker}`; $("#hudTitle").textContent = p.name; $("#hudTag").textContent = p.tag;
     $("#hudList").innerHTML = p.bullets.map(b => `<li>${b}</li>`).join(""); $("#hudCatch").innerHTML = `<b>The catch:</b> ${p.catch}`;
-    $("#hudBuy").href = amazon(p.search); $("#hudGuide").href = guideURL(p.guide);
+    $("#hudBuy").href = buy(p); $("#hudGuide").href = guideURL(p.guide);
     $("#hudHint").textContent = isTouch ? "Drag the product to turn it." : "Drag the product to turn it.";
     document.getElementById(p.id).scrollIntoView({ behavior: "instant", block: "center" }); readScroll();
     hud.classList.add("open"); document.body.classList.add("focus"); $("#hudClose").focus({ preventScroll: true });
