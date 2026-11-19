@@ -24,6 +24,13 @@ DISCLOSURE_LONG = ("As an Amazon Associate I earn from qualifying purchases. Lin
                    "are affiliate links. If you buy through one, the site may earn a commission. "
                    "The price you pay is the same.")
 
+GTAG = '''<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KV9KN5R7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+</script>'''
+
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800'
@@ -66,6 +73,7 @@ def page(title, desc, body, depth, current=None, canonical=""):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+{GTAG}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{e(title)}</title>
@@ -453,7 +461,8 @@ def main():
         "Commissions don't change what you pay, and they don't decide which products make a list.",
     ])
     simple("privacy", "Privacy policy", [
-        "This site does not use analytics, ads or its own cookies, and it does not collect personal information.",
+        "This site uses Google Analytics (through a Google tag) to count visits, see which pages are read and measure clicks out to retailers like Amazon. Google Analytics sets cookies and receives your IP address and basic device and browser details. We don't run ads, we don't sell data, and we don't collect names, emails or other personal information.",
+        "You can block Google Analytics with your browser's privacy settings or Google's opt-out add-on (tools.google.com/dlpage/gaoptout). See Google's privacy policy for how it handles data.",
         "The site is hosted on GitHub Pages, which may log basic technical data such as IP addresses for security. Fonts load from Google Fonts, which receives your IP address to serve them. See GitHub's and Google's privacy statements for details.",
         "When you click a link to Amazon or another retailer, that site may set cookies to credit the referral. Their own privacy policies apply once you leave this site.",
     ])
