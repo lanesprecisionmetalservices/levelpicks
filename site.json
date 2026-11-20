@@ -6,6 +6,202 @@
  "updated": "November 2026",
  "guides": [
   {
+   "slug": "black-friday-2026",
+   "title": "Black Friday 2026: 13 Picks Worth Buying (and the Catch on Each)",
+   "short": "Black Friday 2026",
+   "intro": "Our Black Friday shortlist: tools, a power station, earbuds, a monitor, a TV and a few gifts, each one checked against the maker's specs, with the catch spelled out. Prices move fast this week, so check the current price on Amazon before you buy.",
+   "what_to_look_for": [
+    "Read the full listing title. Words like \"gaming PC\" don't guarantee a graphics card.",
+    "Check what's in the box. \"Tool only\" means no battery or charger.",
+    "Compare the deal price with the last few months. A big \"was\" price isn't proof of a deal.",
+    "Prices change hourly during Black Friday week (Nov 19–30). Check the price on Amazon before you check out."
+   ],
+   "products": [
+    {
+     "name": "NINGMEI Prebuilt PC, Ryzen 7 5700G, 16GB, 1TB SSD",
+     "badge": "Read the fine print",
+     "url": "https://www.amazon.com/dp/B0FD3BCV87?tag=wesellfab01-20",
+     "cta": "See the listing on Amazon",
+     "summary": "This is the cheap Ryzen 7 \"gaming PC\" going around this week. It's a solid everyday desktop, but there's no graphics card. Games run on the chip's built-in Radeon graphics.",
+     "specs": [
+      "AMD Ryzen 7 5700G, 8 cores / 16 threads",
+      "Integrated Radeon graphics (no graphics card)",
+      "16GB DDR4 RAM, 1TB NVMe SSD, Wi-Fi, Windows 11 Home"
+     ],
+     "good_for": "School, office work, streaming, and light esports games at 1080p.",
+     "watch_for": "New AAA games need a graphics card. If you mainly want to game, look at the RTX 5060 pick below."
+    },
+    {
+     "name": "CyberPowerPC Gamer Xtreme, RTX 5060, 16GB DDR5, 1TB SSD",
+     "badge": "Real gaming pick",
+     "url": "https://www.amazon.com/dp/B0DXVDC556?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "If you want a prebuilt that actually games, start with a real graphics card. This one pairs an RTX 5060 with an Intel Core i5-14400F.",
+     "specs": [
+      "NVIDIA GeForce RTX 5060, 8GB GDDR7",
+      "Intel Core i5-14400F, 10 cores / 16 threads",
+      "16GB DDR5 RAM, 1TB PCIe 4.0 SSD, Windows 11 Home"
+     ],
+     "good_for": "1080p gaming on current titles, streaming, and a first gaming PC.",
+     "watch_for": "8GB of video memory is the limit for the newest games at high settings. It's not a Ryzen."
+    },
+    {
+     "name": "DeWalt 20V MAX Drill + Impact Driver Kit (DCK240C2)",
+     "badge": "Best first tool kit",
+     "url": "https://www.amazon.com/dp/B00IJ0ALYS?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "A cordless drill and an impact driver that share the same 20V MAX batteries. It's the starter kit most people end up building on.",
+     "specs": [
+      "Drill/driver with 1/2\" chuck + 1/4\" hex impact driver",
+      "Two 20V MAX 1.3Ah compact batteries",
+      "Charger and kit bag included"
+     ],
+     "good_for": "Homeowners, first apartments, garage projects and anyone starting a DeWalt battery collection.",
+     "watch_for": "The 1.3Ah batteries are small. Heavy users will want a bigger battery later."
+    },
+    {
+     "name": "DeWalt 12\" Double Bevel Sliding Miter Saw (DWS780)",
+     "badge": "Shop upgrade",
+     "url": "https://www.amazon.com/dp/B00540JS7C?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "A 12-inch sliding compound miter saw with DeWalt's XPS light, which casts a shadow of the blade on your cut line.",
+     "specs": [
+      "15 amp, 3,800 RPM motor",
+      "Cuts up to 2x14 at 90° and 2x10 at 45°",
+      "XPS LED cut-line shadow, 10 positive miter stops"
+     ],
+     "good_for": "Trim, framing, decks and anyone outgrowing a 10-inch chop saw.",
+     "watch_for": "It weighs over 50 lb and needs a stand or a solid bench."
+    },
+    {
+     "name": "DeWalt 20V MAX Corded/Cordless Air Inflator (DCC020IB)",
+     "badge": "Keep it in the truck",
+     "url": "https://www.amazon.com/dp/B07H39S9JQ?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "Runs on a DeWalt 20V MAX battery or your car's 12V outlet, and shuts off at the pressure you set.",
+     "specs": [
+      "160 PSI max",
+      "Runs on 20V MAX battery or 12V DC (cord included)",
+      "Digital gauge with automatic shutoff, LED light"
+     ],
+     "good_for": "Anyone who already owns DeWalt 20V batteries: car tires, bikes, sports balls.",
+     "watch_for": "Tool only. Battery, charger and the 110V AC adapter are sold separately."
+    },
+    {
+     "name": "EcoFlow DELTA 3 Max Portable Power Station (2048Wh)",
+     "badge": "Home backup",
+     "url": "https://www.amazon.com/dp/B0FQV6LMVX?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "A 2,048Wh LFP power station that can run a fridge, lights and phones through an outage.",
+     "specs": [
+      "2,048Wh LFP battery",
+      "2,400W AC output (4,800W surge)",
+      "Up to 500W solar input"
+     ],
+     "good_for": "Storm season, power outages, RV and job-site power.",
+     "watch_for": "About 45 lb. Run time depends on what you plug in."
+    },
+    {
+     "name": "Apple AirPods Pro 3",
+     "badge": "Near their lowest price",
+     "url": "https://www.amazon.com/dp/B0FQFB8FMG?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "Apple's flagship earbuds, with stronger noise canceling than AirPods Pro 2 and heart-rate sensing for workouts.",
+     "specs": [
+      "Apple says up to 2x the noise canceling of AirPods Pro 2",
+      "Heart-rate sensing during workouts",
+      "IP57 sweat and water resistance"
+     ],
+     "good_for": "iPhone owners who want one pair for the gym, the commute and calls.",
+     "watch_for": "The best features need an iPhone. Android users get the basics only."
+    },
+    {
+     "name": "Samsung 49\" Odyssey OLED G9 (G91SD)",
+     "badge": "Biggest screen",
+     "url": "https://www.amazon.com/dp/B0DSGJRKCR?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "A 49-inch curved QD-OLED monitor, about the size of two 27-inch 1440p screens side by side with no bezel in the middle.",
+     "specs": [
+      "5120 x 1440 Dual QHD, 32:9",
+      "144Hz, 0.03ms response",
+      "QD-OLED panel, AMD FreeSync Premium Pro"
+     ],
+     "good_for": "Racing and flight sims, and work setups that need a lot of side-by-side space.",
+     "watch_for": "You need a strong graphics card to drive it, and a deep desk."
+    },
+    {
+     "name": "Sony 65\" BRAVIA 8 II QD-OLED TV (K-65XR80M2)",
+     "badge": "Best picture",
+     "url": "https://www.amazon.com/dp/B0DYK7Y2YB?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "Sony's 65-inch QD-OLED with true blacks, Google TV, and features made for PS5.",
+     "specs": [
+      "65\" 4K QD-OLED, native 120Hz",
+      "Dolby Vision, HDR10 and HLG",
+      "XR Processor, Google TV, made-for-PS5 features"
+     ],
+     "good_for": "Movie nights and console gaming in a living room you can make dark.",
+     "watch_for": "Even on sale, it's a big purchase. Compare it with a mini-LED TV if your room is very bright."
+    },
+    {
+     "name": "Razer DeathAdder V3 Pro Wireless Gaming Mouse",
+     "badge": "Gamer gift",
+     "url": "https://www.amazon.com/dp/B0B6XZLNHQ?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "A light, ergonomic wireless mouse with Razer's Focus Pro 30K sensor.",
+     "specs": [
+      "63 grams",
+      "Up to 90 hours per charge",
+      "Focus Pro 30K optical sensor"
+     ],
+     "good_for": "PC gamers with right hands and a palm or claw grip.",
+     "watch_for": "Right-handed only. Some versions don't include the faster HyperPolling dongle."
+    },
+    {
+     "name": "Beats Studio Pro Wireless Headphones",
+     "badge": "Big markdown",
+     "url": "https://www.amazon.com/dp/B0H7Z164PJ?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "Over-ear noise-canceling headphones that work with both iPhone and Android, with lossless audio over USB-C.",
+     "specs": [
+      "Up to 40 hours battery (24 hours with noise canceling on)",
+      "Active noise canceling and Transparency mode",
+      "Lossless audio over USB-C"
+     ],
+     "good_for": "Travel, the gym and anyone switching between iPhone and Android.",
+     "watch_for": "No auto-pause when you take them off."
+    },
+    {
+     "name": "KitchenAid Artisan 5-Qt Tilt-Head Stand Mixer",
+     "badge": "Kitchen gift",
+     "url": "https://www.amazon.com/dp/B005PMEHBG?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "The classic 5-quart tilt-head mixer, with a flat beater, dough hook and wire whip in the box.",
+     "specs": [
+      "5-quart stainless steel bowl",
+      "10 speeds",
+      "Tilt-head design, works with KitchenAid attachments"
+     ],
+     "good_for": "Holiday baking, bread dough and anyone who cooks every weekend.",
+     "watch_for": "Most attachments (pasta, grinder, ice cream) cost extra. Check the color before you order."
+    },
+    {
+     "name": "Dremel 4300 Rotary Tool Kit",
+     "badge": "Garage gift",
+     "url": "https://www.amazon.com/dp/B01M1SJNVU?tag=wesellfab01-20",
+     "cta": "Check price on Amazon",
+     "summary": "A variable-speed rotary tool with an LED pivot light and a kit of bits for cutting, sanding and polishing.",
+     "specs": [
+      "Variable speed up to 35,000 RPM",
+      "LED pivot light included",
+      "Accessory kit included"
+     ],
+     "good_for": "Detail work, cleanup, small cuts and hobby projects.",
+     "watch_for": "It's for detail work. It won't replace an angle grinder on heavy steel."
+    }
+   ]
+  },
+  {
    "slug": "black-friday-prime",
    "title": "Amazon Black Friday 2026: Start a Prime Free Trial First",
    "short": "Black Friday",
