@@ -1,9 +1,9 @@
 {
  "name": "Level Picks",
- "tagline": "Honest picks, no hype. Gift ideas, car and garage gear, and deals worth knowing about, checked against the maker's specs.",
+ "tagline": "Honest picks. Perfectly level. Shop, garage and home gear checked against the maker's specs, with the catch spelled out before you buy.",
  "base_url": "https://levelpicks.com",
  "amazon_tag": "wesellfab01-20",
- "updated": "November 2026",
+ "updated": "November 25, 2026",
  "guides": [
   {
    "slug": "black-friday-2026",
@@ -29,7 +29,8 @@
       "16GB DDR4 RAM, 1TB NVMe SSD, Wi-Fi, Windows 11 Home"
      ],
      "good_for": "School, office work, streaming, and light esports games at 1080p.",
-     "watch_for": "New AAA games need a graphics card. If you mainly want to game, look at the RTX 5060 pick below."
+     "watch_for": "New AAA games need a graphics card. If you mainly want to game, look at the RTX 5060 pick below.",
+     "icon": "pc"
     },
     {
      "name": "CyberPowerPC Gamer Xtreme, RTX 5060, 16GB DDR5, 1TB SSD",
@@ -43,7 +44,8 @@
       "16GB DDR5 RAM, 1TB PCIe 4.0 SSD, Windows 11 Home"
      ],
      "good_for": "1080p gaming on current titles, streaming, and a first gaming PC.",
-     "watch_for": "8GB of video memory is the limit for the newest games at high settings. It's not a Ryzen."
+     "watch_for": "8GB of video memory is the limit for the newest games at high settings. It's not a Ryzen.",
+     "icon": "pc"
     },
     {
      "name": "DeWalt 20V MAX Drill + Impact Driver Kit (DCK240C2)",
@@ -57,7 +59,9 @@
       "Charger and kit bag included"
      ],
      "good_for": "Homeowners, first apartments, garage projects and anyone starting a DeWalt battery collection.",
-     "watch_for": "The 1.3Ah batteries are small. Heavy users will want a bigger battery later."
+     "watch_for": "The 1.3Ah batteries are small. Heavy users will want a bigger battery later.",
+     "icon": "drill",
+     "featured": 5
     },
     {
      "name": "DeWalt 12\" Double Bevel Sliding Miter Saw (DWS780)",
@@ -71,7 +75,8 @@
       "XPS LED cut-line shadow, 10 positive miter stops"
      ],
      "good_for": "Trim, framing, decks and anyone outgrowing a 10-inch chop saw.",
-     "watch_for": "It weighs over 50 lb and needs a stand or a solid bench."
+     "watch_for": "It weighs over 50 lb and needs a stand or a solid bench.",
+     "icon": "saw"
     },
     {
      "name": "DeWalt 20V MAX Corded/Cordless Air Inflator (DCC020IB)",
@@ -85,7 +90,8 @@
       "Digital gauge with automatic shutoff, LED light"
      ],
      "good_for": "Anyone who already owns DeWalt 20V batteries: car tires, bikes, sports balls.",
-     "watch_for": "Tool only. Battery, charger and the 110V AC adapter are sold separately."
+     "watch_for": "Tool only. Battery, charger and the 110V AC adapter are sold separately.",
+     "icon": "gauge"
     },
     {
      "name": "EcoFlow DELTA 3 Max Portable Power Station (2048Wh)",
@@ -99,7 +105,8 @@
       "Up to 500W solar input"
      ],
      "good_for": "Storm season, power outages, RV and job-site power.",
-     "watch_for": "About 45 lb. Run time depends on what you plug in."
+     "watch_for": "About 45 lb. Run time depends on what you plug in.",
+     "icon": "battery"
     },
     {
      "name": "Apple AirPods Pro 3",
@@ -113,7 +120,8 @@
       "IP57 sweat and water resistance"
      ],
      "good_for": "iPhone owners who want one pair for the gym, the commute and calls.",
-     "watch_for": "The best features need an iPhone. Android users get the basics only."
+     "watch_for": "The best features need an iPhone. Android users get the basics only.",
+     "icon": "earbuds"
     },
     {
      "name": "Samsung 49\" Odyssey OLED G9 (G91SD)",
@@ -127,7 +135,8 @@
       "QD-OLED panel, AMD FreeSync Premium Pro"
      ],
      "good_for": "Racing and flight sims, and work setups that need a lot of side-by-side space.",
-     "watch_for": "You need a strong graphics card to drive it, and a deep desk."
+     "watch_for": "You need a strong graphics card to drive it, and a deep desk.",
+     "icon": "monitor"
     },
     {
      "name": "Sony 65\" BRAVIA 8 II QD-OLED TV (K-65XR80M2)",
@@ -141,7 +150,8 @@
       "XR Processor, Google TV, made-for-PS5 features"
      ],
      "good_for": "Movie nights and console gaming in a living room you can make dark.",
-     "watch_for": "Even on sale, it's a big purchase. Compare it with a mini-LED TV if your room is very bright."
+     "watch_for": "Even on sale, it's a big purchase. Compare it with a mini-LED TV if your room is very bright.",
+     "icon": "tv"
     },
     {
      "name": "Razer DeathAdder V3 Pro Wireless Gaming Mouse",
@@ -155,7 +165,8 @@
       "Focus Pro 30K optical sensor"
      ],
      "good_for": "PC gamers with right hands and a palm or claw grip.",
-     "watch_for": "Right-handed only. Some versions don't include the faster HyperPolling dongle."
+     "watch_for": "Right-handed only. Some versions don't include the faster HyperPolling dongle.",
+     "icon": "mouse"
     },
     {
      "name": "Beats Studio Pro Wireless Headphones",
@@ -169,7 +180,8 @@
       "Lossless audio over USB-C"
      ],
      "good_for": "Travel, the gym and anyone switching between iPhone and Android.",
-     "watch_for": "No auto-pause when you take them off."
+     "watch_for": "No auto-pause when you take them off.",
+     "icon": "headphones"
     },
     {
      "name": "KitchenAid Artisan 5-Qt Tilt-Head Stand Mixer",
@@ -183,7 +195,8 @@
       "Tilt-head design, works with KitchenAid attachments"
      ],
      "good_for": "Holiday baking, bread dough and anyone who cooks every weekend.",
-     "watch_for": "Most attachments (pasta, grinder, ice cream) cost extra. Check the color before you order."
+     "watch_for": "Most attachments (pasta, grinder, ice cream) cost extra. Check the color before you order.",
+     "icon": "mixer"
     },
     {
      "name": "Dremel 4300 Rotary Tool Kit",
@@ -197,7 +210,8 @@
       "Accessory kit included"
      ],
      "good_for": "Detail work, cleanup, small cuts and hobby projects.",
-     "watch_for": "It's for detail work. It won't replace an angle grinder on heavy steel."
+     "watch_for": "It's for detail work. It won't replace an angle grinder on heavy steel.",
+     "icon": "rotary"
     }
    ]
   },
@@ -225,7 +239,8 @@
       "Includes Prime Video, Amazon Music and Prime Reading"
      ],
      "good_for": "Anyone planning to shop Amazon's Black Friday Week (Nov 19–30) or Cyber Monday (Nov 30).",
-     "watch_for": "It renews into a paid membership unless you cancel before the trial ends."
+     "watch_for": "It renews into a paid membership unless you cancel before the trial ends.",
+     "icon": "gift"
     }
    ]
   },
@@ -253,7 +268,8 @@
       "Cancel anytime before the trial ends"
      ],
      "good_for": "Commutes, long shifts, road trips and anyone who'd rather listen than read.",
-     "watch_for": "Prices and trial offers change. Check the sign-up page before you start."
+     "watch_for": "Prices and trial offers change. Check the sign-up page before you start.",
+     "icon": "headphones"
     }
    ]
   },
@@ -284,7 +300,8 @@
      "good_for": "Anyone gaming through TV speakers who wants better sound and party chat for little money.",
      "watch_for": "It's wired stereo, not wireless or surround.",
      "url": "https://www.amazon.com/dp/B0BDHYF8YS?tag=wesellfab01-20",
-     "asin": "B0BDHYF8YS"
+     "asin": "B0BDHYF8YS",
+     "icon": "headphones"
     },
     {
      "name": "Sony DualSense Charging Station",
@@ -300,7 +317,8 @@
      "good_for": "Households with two controllers, or anyone tired of hunting for a cable.",
      "watch_for": "Controllers are sold separately.",
      "url": "https://www.amazon.com/dp/B08FC6Y4VG?tag=wesellfab01-20",
-     "asin": "B08FC6Y4VG"
+     "asin": "B08FC6Y4VG",
+     "icon": "gamepad"
     }
    ]
   },
@@ -332,7 +350,9 @@
      "good_for": "Cars, small trucks, boats and mowers; a backup for cold mornings.",
      "watch_for": "Big diesel trucks need a larger model. Top it off every few months.",
      "url": "https://www.amazon.com/dp/B015TKUPIC?tag=wesellfab01-20",
-     "asin": "B015TKUPIC"
+     "asin": "B015TKUPIC",
+     "icon": "bolt",
+     "featured": 3
     },
     {
      "name": "AstroAI L7 cordless tire inflator",
@@ -349,7 +369,8 @@
      "good_for": "Topping off car, motorcycle and bike tires; glovebox storage.",
      "watch_for": "Not made for heavy-duty off-road, RV, truck or trailer tires.",
      "url": "https://www.amazon.com/dp/B0CS3B7MD8?tag=wesellfab01-20",
-     "asin": "B0CS3B7MD8"
+     "asin": "B0CS3B7MD8",
+     "icon": "gauge"
     },
     {
      "name": "BlueDriver Bluetooth Pro OBDII scan tool",
@@ -366,7 +387,9 @@
      "good_for": "DIYers who want to know what's wrong before paying a shop.",
      "watch_for": "Works on gas vehicles 1996 and newer; enhanced-code coverage varies by make.",
      "url": "https://www.amazon.com/dp/B00652G4TS?tag=wesellfab01-20",
-     "asin": "B00652G4TS"
+     "asin": "B00652G4TS",
+     "icon": "scanner",
+     "featured": 6
     }
    ]
   },
@@ -391,7 +414,8 @@
       "Adjustable strap"
      ],
      "good_for": "Mechanics, woodworkers and anyone who drops screws.",
-     "watch_for": "Keep it away from phones, watches and cards with magnetic strips."
+     "watch_for": "Keep it away from phones, watches and cards with magnetic strips.",
+     "icon": "magnet"
     },
     {
      "name": "Telescoping magnetic pickup tool",
@@ -404,7 +428,8 @@
       "Some include an LED light"
      ],
      "good_for": "Engine bays, under benches and tight spaces.",
-     "watch_for": "Only picks up steel and iron, not aluminum, brass or stainless fasteners."
+     "watch_for": "Only picks up steel and iron, not aluminum, brass or stainless fasteners.",
+     "icon": "magnet"
     },
     {
      "name": "Rechargeable LED work light with magnetic base",
@@ -417,7 +442,8 @@
       "Many have a hook and folding stand"
      ],
      "good_for": "Under-hood work, under-dash work and power outages.",
-     "watch_for": "Battery life and brightness vary a lot between models; check the listing."
+     "watch_for": "Battery life and brightness vary a lot between models; check the listing.",
+     "icon": "light"
     }
    ]
   },
@@ -448,7 +474,9 @@
      "good_for": "Turkey, steaks, roasts, frying oil and candy.",
      "watch_for": "Now sold under the TempPro name (TempSwift TP19H); you may receive either branding.",
      "url": "https://www.amazon.com/dp/B07XXSYLL8?tag=wesellfab01-20",
-     "asin": "B07XXSYLL8"
+     "asin": "B07XXSYLL8",
+     "icon": "thermo",
+     "featured": 8
     },
     {
      "name": "Lodge 10.25-inch cast iron skillet",
@@ -464,7 +492,8 @@
      "good_for": "Searing, cornbread, eggs, campfire cooking, and gifts.",
      "watch_for": "Hand-wash only. Dry it right away and wipe on a thin coat of oil.",
      "url": "https://www.amazon.com/dp/B00006JSUA?tag=wesellfab01-20",
-     "asin": "B00006JSUA"
+     "asin": "B00006JSUA",
+     "icon": "pan"
     }
    ]
   },
@@ -494,7 +523,80 @@
      "good_for": "Bedtime reading, the bathtub, the beach and travel.",
      "watch_for": "The cheaper version shows lock-screen ads.",
      "url": "https://www.amazon.com/dp/B0CFPJYX7P?tag=wesellfab01-20",
-     "asin": "B0CFPJYX7P"
+     "asin": "B0CFPJYX7P",
+     "icon": "book",
+     "featured": 4
+    }
+   ]
+  },
+  {
+   "slug": "plasma-cutters",
+   "title": "Plasma Cutters for the Home Shop: What Actually Matters",
+   "short": "Plasma cutters",
+   "intro": "A home-shop plasma cutter should cut clean on the power you have, start without dragging the tip, and use parts you can actually find. Here's the one I'd point a garage fabricator to first.",
+   "what_to_look_for": [
+    "Clean cut vs. max cut: the clean-cut number is the thickness you'll get a usable edge on. The max (sever) number is for chopping stock apart, not finished parts.",
+    "Pilot arc: the arc starts without touching the metal, so you can cut rusty, painted or expanded metal and your tips last longer.",
+    "120V vs. 240V: dual-voltage machines lose power on a household outlet. Plan thick cuts around 240V.",
+    "Air supply: plasma runs on compressed air, and it has to be clean and dry. Check the machine's psi range against your compressor and add a filter or dryer.",
+    "Consumables: tips and electrodes wear out. Pick a torch whose parts are easy to buy.",
+    "CNC later? A hand-held cutter without a CNC port can't run a table. Decide now if a table is in your future."
+   ],
+   "products": [
+    {
+     "name": "ARCCAPTAIN iControl CUT55 Pro",
+     "badge": "Home-shop pick",
+     "url": "https://www.amazon.com/dp/B0D49LVHWV?tag=wesellfab01-20",
+     "asin": "B0D49LVHWV",
+     "icon": "plasma",
+     "summary": "A dual-voltage 55-amp plasma cutter with a non-touch pilot arc. Plug it into 120V for sheet metal and brackets, or 240V when you need to get through 1/2\" plate cleanly.",
+     "specs": [
+      "55 A on 240V, 35 A on 120V (dual voltage)",
+      "Clean cut: 1/4\" on 120V, 1/2\" on 240V",
+      "Max cut: 1/2\" on 120V, 3/4\" on 240V",
+      "Non-touch pilot arc, AG60 torch",
+      "2T/4T trigger modes, LED display, app control",
+      "Air: 29–72 psi, 1/4\" NPT fitting",
+      "Machine weight: 11.5 lb",
+      "3-year warranty"
+     ],
+     "good_for": "Garage fabricators and repair shops cutting brackets, patch panels and plate up to 1/2\" with a clean edge.",
+     "watch_for": "You need your own air compressor with clean, dry air. On 120V it drops to 35 A, so plan thick cuts on 240V. It isn't CNC compatible.",
+     "featured": 2
+    }
+   ]
+  },
+  {
+   "slug": "mag-drills",
+   "title": "Mag Drills: Clean Holes in Steel Without a Drill Press",
+   "short": "Mag drills",
+   "intro": "When the part is too big for the drill press, the drill goes to the part. A mag drill locks onto steel with an electromagnet and runs annular cutters, so you get clean, square holes in beams, plate and brackets right where they sit. Here's the one I'm running in the shop.",
+   "what_to_look_for": [
+    "Magnet hold and plate thickness: the magnet needs enough steel under it to grab. Check the listing's minimum plate thickness before you drill thin stock.",
+    "Cutter size and depth: the max cutter diameter and depth decide the biggest hole you can make in one pass.",
+    "Variable speed: big cutters need slow speeds, small ones need fast. A speed dial saves cutters.",
+    "Cutters and arbor: check which annular cutters fit, and that you can buy replacements easily.",
+    "Safety strap: if you drill sideways or overhead, strap the drill so it can't fall if the magnet lets go.",
+    "Cutting fluid: annular cutters last much longer with fluid on every hole."
+   ],
+   "products": [
+    {
+     "name": "VEVOR 1450W Magnetic Drill Press",
+     "badge": "Shop pick",
+     "url": "https://www.amazon.com/dp/B0DT9FFBVL?tag=wesellfab01-20",
+     "asin": "B0DT9FFBVL",
+     "icon": "drill",
+     "summary": "A 1450-watt mag drill that clamps to steel and cores holes up to 1.6\" across and 2\" deep, with variable speed and overload protection.",
+     "specs": [
+      "1450W copper motor",
+      "Variable speed, 0-800 RPM",
+      "Max cutter: 1.6\" (40 mm) diameter, 2\" (50 mm) deep",
+      "Electromagnetic base, listed at 2,810 lbf (12,500 N)",
+      "Overload protection and cooling system",
+      "Depth scale on the frame, 3 feed handles"
+     ],
+     "good_for": "Fabricators, trailer and equipment builders, and anyone drilling big holes in beams or plate that won't fit under a drill press.",
+     "watch_for": "The listing says the magnet needs steel at least 3/8\" (10 mm) thick, and it isn't meant for stainless or cast iron. Use a safety strap when you drill sideways or overhead."
     }
    ]
   },
@@ -502,7 +604,7 @@
    "slug": "auto-darkening-welding-helmets",
    "title": "Auto-Darkening Welding Helmets Worth Buying",
    "short": "Welding helmets",
-   "intro": "You look through your helmet on every weld, grind and cut. Here's a budget hood with a huge window, a premium all-rounder and a digital hood with a separate cut mode.",
+   "intro": "You look through your helmet on every weld, grind and cut. Here's a budget hood with a huge window, a premium all-rounder, a digital hood with a separate cut mode, and auto-darkening goggles for the spots a hood won't fit.",
    "what_to_look_for": [
     "Viewing area: bigger means less tunnel vision, especially out of position. Compare it in square inches.",
     "Optical clarity rating (EN379): four numbers, 1 is best. 1/1/1/1 is the top rating.",
@@ -526,7 +628,8 @@
      "good_for": "Beginners, garage welders, and anyone who wants a spare hood that still has a big screen.",
      "watch_for": "It's a budget hood, so expect simpler headgear and fewer settings than the Lincoln or Miller. Check the listing for the exact clarity rating; it varies between versions.",
      "url": "https://www.amazon.com/dp/B07M5WKCYX?tag=wesellfab01-20",
-     "asin": "B07M5WKCYX"
+     "asin": "B07M5WKCYX",
+     "icon": "helmet"
     },
     {
      "name": "Lincoln Electric Viking 3350",
@@ -544,7 +647,9 @@
      "good_for": "Daily welders who want top-rated optics, low-amp TIG, and a hood that lasts years.",
      "watch_for": "It's sold in lots of graphic designs under different part numbers. The lens and specs are the same. The newer 3350 ADV is a different digital model with a slightly smaller window.",
      "url": "https://www.amazon.com/dp/B07V9G94NK?tag=wesellfab01-20",
-     "asin": "B07V9G94NK"
+     "asin": "B07V9G94NK",
+     "icon": "helmet",
+     "featured": 1
     },
     {
      "name": "Miller Digital Infinity (ClearLight 4x)",
@@ -561,7 +666,26 @@
      "good_for": "Welders who also do a lot of plasma or torch cutting, and anyone who wants digital controls.",
      "watch_for": "It's the priciest of the three. The older ClearLight 2.0 version is discontinued, so make sure the listing says ClearLight 4x.",
      "url": "https://www.amazon.com/dp/B0DC1V62WG?tag=wesellfab01-20",
-     "asin": "B0DC1V62WG"
+     "asin": "B0DC1V62WG",
+     "icon": "helmet"
+    },
+    {
+     "name": "YESWELDER Auto-Darkening Welding Goggles",
+     "badge": "Tight-space pick",
+     "url": "https://www.amazon.com/dp/B07PM1N4K4?tag=wesellfab01-20",
+     "asin": "B07PM1N4K4",
+     "icon": "goggles",
+     "summary": "Auto-darkening goggles with a face shield in the box, for spots a full hood won't fit, like under a dash or inside a frame rail.",
+     "specs": [
+      "Shade ranges: 3 / 5-9 / 9-13, with a grind setting",
+      "Switches light to dark in 1/30,000 sec",
+      "2 arc sensors",
+      "Viewing area: 4.82 x 1.38 in (about 6.7 sq in)",
+      "Solar plus replaceable CR2450 battery",
+      "Face shield included, works with a hard hat"
+     ],
+     "good_for": "Tack welds and repairs in cramped spots, plasma cutting and grinding, and anyone who wears a hard hat on site.",
+     "watch_for": "The window is less than half the size of the hoods above and it has only 2 sensors, so treat it as a second option for tight spots, not your all-day helmet."
     }
    ],
    "compare": {
@@ -589,6 +713,12 @@
       "13.4 sq in",
       "4",
       "8-13"
+     ],
+     [
+      "YesWelder goggles",
+      "About 6.7 sq in",
+      "2",
+      "5-9, 9-13"
      ]
     ]
    }
@@ -622,7 +752,9 @@
      "good_for": "Heavy grinding, beveling plate and running flap discs hard.",
      "watch_for": "No brake. The DWE402W version adds an abrasive wheel in the box.",
      "url": "https://www.amazon.com/dp/B00RVZ7DNO?tag=wesellfab01-20",
-     "asin": "B00RVZ7DNO"
+     "asin": "B00RVZ7DNO",
+     "icon": "grinder",
+     "featured": 7
     },
     {
      "name": "Makita 9557PB",
@@ -639,7 +771,8 @@
      "good_for": "Long sessions of finish grinding and edge cleanup, where a slim grip matters more than raw power.",
      "watch_for": "Less power than the DeWalt when you lean on it with a big flap disc.",
      "url": "https://www.amazon.com/dp/B0009OR8XO?tag=wesellfab01-20",
-     "asin": "B0009OR8XO"
+     "asin": "B0009OR8XO",
+     "icon": "grinder"
     },
     {
      "name": "Metabo HPT G12SR4",
@@ -656,7 +789,8 @@
      "good_for": "A first grinder, a second grinder set up with a wire wheel, or light home-shop work.",
      "watch_for": "Slide switch stays on if you drop it. 1-year base warranty.",
      "url": "https://www.amazon.com/dp/B07L21GNHL?tag=wesellfab01-20",
-     "asin": "B07L21GNHL"
+     "asin": "B07L21GNHL",
+     "icon": "grinder"
     }
    ],
    "compare": {
@@ -691,6 +825,99 @@
      ]
     ]
    }
+  }
+ ],
+ "social": {
+  "tiktok": "https://www.tiktok.com/@levelpicks",
+  "youtube": "https://www.youtube.com/@levelpicks1",
+  "instagram": ""
+ },
+ "promo": {
+  "label": "Black Friday Week",
+  "ends": "2026-11-30T23:59:00-08:00",
+  "ends_text": "Ends Mon, Nov 30",
+  "guide": "black-friday-2026"
+ },
+ "categories": [
+  {
+   "slug": "shop",
+   "name": "Shop & Fab",
+   "blurb": "Welding helmets, grinders, plasma cutters and mag drills, picked by a fabricator.",
+   "color": "#ff8a3d",
+   "icon": "helmet",
+   "guides": [
+    "auto-darkening-welding-helmets",
+    "4-5-inch-angle-grinders",
+    "plasma-cutters",
+    "mag-drills"
+   ]
+  },
+  {
+   "slug": "deals",
+   "name": "Black Friday Deals",
+   "blurb": "The week's best buys, each with the catch spelled out.",
+   "color": "#ffc531",
+   "icon": "tag",
+   "guides": [
+    "black-friday-2026",
+    "black-friday-prime"
+   ]
+  },
+  {
+   "slug": "garage",
+   "name": "Garage & Car",
+   "blurb": "Jump starters, inflators and small garage gear that earns its spot.",
+   "color": "#4fc3f7",
+   "icon": "car",
+   "guides": [
+    "car-emergency-kit",
+    "garage-stocking-stuffers"
+   ]
+  },
+  {
+   "slug": "tech",
+   "name": "Gaming & Tech",
+   "blurb": "Upgrades worth plugging in, from headsets to chargers.",
+   "color": "#b388ff",
+   "icon": "gamepad",
+   "guides": [
+    "gta-6-launch-gear"
+   ]
+  },
+  {
+   "slug": "home",
+   "name": "Home & Kitchen",
+   "blurb": "Kitchen gear that works on the busiest day of the year.",
+   "color": "#ff6b8b",
+   "icon": "pan",
+   "guides": [
+    "thanksgiving-kitchen"
+   ]
+  },
+  {
+   "slug": "gifts",
+   "name": "Gifts & Reading",
+   "blurb": "Easy gifts and free trials for the readers and listeners.",
+   "color": "#9be15d",
+   "icon": "book",
+   "guides": [
+    "gifts-for-readers",
+    "audible-free-trial"
+   ]
+  }
+ ],
+ "books": [
+  {
+   "slug": "build-a-pc",
+   "title": "Build Your First PC",
+   "status": "coming_soon",
+   "pitch": "The whole build, start to finish: what each part does, what to spend on and where to save.",
+   "inside": [
+    "Three complete builds: best, budget and the bare minimum that still games",
+    "What every part does, in plain words",
+    "Step-by-step assembly with the mistakes people make",
+    "Upgrade paths so you don't rebuy later"
+   ]
   }
  ]
 }
