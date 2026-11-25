@@ -121,6 +121,7 @@ def youtube_id(u):
 ICONS = {
     "helmet": '<path d="M4 13a8 8 0 0 1 16 0v3a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z"/><rect x="7" y="11" width="10" height="4" rx="1"/><path d="M12 5V3"/>',
     "goggles": '<path d="M2 10c0-1.7 1.3-3 3-3h14c1.7 0 3 1.3 3 3v3c0 1.7-1.3 3-3 3h-3l-2-2.5h-4L8 16H5c-1.7 0-3-1.3-3-3z"/><path d="M5 10.5h4.5M14.5 10.5H19"/>',
+    "spool": '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5.5"/><circle cx="12" cy="12" r="1.5"/><path d="M20.5 9.5L23 8"/>',
     "grinder": '<circle cx="7" cy="12" r="4.5"/><circle cx="7" cy="12" r="1"/><path d="M11.5 10.5h7a2.5 2.5 0 0 1 0 5h-7"/><path d="M15 10.5V8"/>',
     "plasma": '<path d="M3 20l7-7"/><rect x="9" y="7.5" width="8" height="4" rx="1.5" transform="rotate(-45 13 9.5)"/><path d="M16 5l3-2M18 8l3-.5M16.5 2.5l.5-1.5"/>',
     "drill": '<path d="M3 8h11l2 2v1H3z"/><path d="M16 9.5h5"/><path d="M6 11l-1 8h4l1-8"/><path d="M9 15h3"/>',

@@ -601,6 +601,39 @@
    ]
   },
   {
+   "slug": "welding-supplies",
+   "title": "Welding Supplies: Wire and Consumables Worth Stocking",
+   "short": "Welding supplies",
+   "intro": "Good wire and consumables make a cheap welder run better and a good welder run easier. These are the supplies worth keeping on the shelf, with what each one is and isn't rated for.",
+   "what_to_look_for": [
+    "Gas or gasless: self-shielded flux core runs without a gas bottle and handles wind outside. Solid MIG wire needs shielding gas but leaves no slag.",
+    "Classification: the letters on the spool matter. A \"GS\" flux core wire like E71T-GS is rated for single-pass welds, not multi-pass structural work.",
+    "Wire size: match the wire to your welder's drive rolls and contact tips. .030\" and .035\" are the common sizes for small machines.",
+    "Spool size: 2 lb spools fit most small flux core welders. Check that your machine takes the spool size you're buying.",
+    "Polarity: most welders need to be switched to DCEN for flux core. Check your welder's manual before you start."
+   ],
+   "products": [
+    {
+     "name": "YESWELDER E71T-GS Flux Core Wire, .035\"",
+     "badge": "Gasless wire pick",
+     "url": "https://www.amazon.com/dp/B0D6G1PQZ6?tag=wesellfab01-20",
+     "asin": "B0D6G1PQZ6",
+     "icon": "spool",
+     "summary": "Self-shielded flux core wire for mild steel. No gas bottle needed, so it works outside in the wind and burns through light rust and mill scale.",
+     "specs": [
+      "AWS E71T-GS, self-shielded flux core",
+      "Diameter: .035\" (0.9 mm)",
+      "2 lb spools on a hard ABS spool",
+      "For carbon and low-alloy steel",
+      "All-position welding",
+      "No shielding gas needed"
+     ],
+     "good_for": "Garage and farm repairs, fence and trailer work, and welding outside where wind blows shielding gas away.",
+     "watch_for": "E71T-GS is rated for single-pass welds, so it isn't the wire for multi-pass structural work. Flux core leaves slag to chip off, and most welders need the polarity switched to DCEN. Check the pack size on the listing before you buy."
+    }
+   ]
+  },
+  {
    "slug": "auto-darkening-welding-helmets",
    "title": "Auto-Darkening Welding Helmets Worth Buying",
    "short": "Welding helmets",
@@ -842,14 +875,15 @@
   {
    "slug": "shop",
    "name": "Shop & Fab",
-   "blurb": "Welding helmets, grinders, plasma cutters and mag drills, picked by a fabricator.",
+   "blurb": "Welding helmets, grinders, plasma cutters, mag drills and welding supplies, picked by a fabricator.",
    "color": "#ff8a3d",
    "icon": "helmet",
    "guides": [
     "auto-darkening-welding-helmets",
     "4-5-inch-angle-grinders",
     "plasma-cutters",
-    "mag-drills"
+    "mag-drills",
+    "welding-supplies"
    ]
   },
   {
