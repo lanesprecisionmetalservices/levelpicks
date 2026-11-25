@@ -324,13 +324,14 @@
   },
   {
    "slug": "car-emergency-kit",
-   "title": "Car Emergency Kit: Jump Starter, Tire Inflator and Code Reader",
+   "title": "Car Emergency Kit: Jump Starter, Inflator, Code Reader and Spotlight",
    "short": "Car kit",
-   "intro": "Three things that get you moving again without a second car, a gas station air machine or a trip to the shop just to find out what the check engine light means.",
+   "intro": "Four things that get you moving again without a second car, a gas station air machine or a trip to the shop just to find out what the check engine light means, plus a light for when it all happens after dark.",
    "what_to_look_for": [
     "Jump starters: match the engine size rating to your vehicle (gas and diesel ratings differ).",
     "Tire inflators: auto shut-off at a set PSI saves you from over-filling.",
     "Code readers: check which systems (ABS, airbag, transmission) it reads for your make.",
+    "Spotlights: check how it mounts and how it's powered. A plug-in light only runs while it's plugged into the outlet.",
     "Recharge battery-powered gear every few months so it's ready in winter."
    ],
    "products": [
@@ -390,6 +391,25 @@
      "asin": "B00652G4TS",
      "icon": "scanner",
      "featured": 6
+    },
+    {
+     "name": "QQBE Remote Control LED Spotlight",
+     "badge": "Dark roadside",
+     "url": "https://www.amazon.com/dp/B0GGB9N8VX?tag=wesellfab01-20",
+     "asin": "B0GGB9N8VX",
+     "icon": "light",
+     "summary": "A remote-control spotlight that sticks to the roof with magnets and plugs into the 12V outlet. Aim it from the driver's seat to light up a ditch, a trailer hitch or a tire change.",
+     "specs": [
+      "50W LED, listed at 5,000 lumens, 6000K",
+      "Wireless remote, listed range up to 328 ft",
+      "360° rotation, 120° tilt, auto-reset",
+      "SOS flash mode",
+      "6 built-in magnets, or screw mount",
+      "12V-24V, plugs into the lighter/accessory outlet",
+      "IP65 rated, ABS housing"
+     ],
+     "good_for": "Trucks, UTVs and boats: roadside breakdowns, backing up a trailer at night, checking fence lines or scanning the water.",
+     "watch_for": "The lumen and range numbers are the seller's own. The listing says magnets alone aren't safe above about 28 mph (45 km/h), so screw-mount it if it rides on the vehicle while driving. It runs only while plugged in."
     }
    ]
   },
